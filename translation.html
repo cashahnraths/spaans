@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Vertalingen</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    label, button { margin: 8px 0; display: block; }
+    #answer { width: 300px; }
+    .feedback { font-weight: bold; margin-top: 12px; }
+    .error { color: red; }
+    .stats { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Vertalingen oefenen</h1>
+  <p><a href="index.html">⬅ Terug</a></p>
+
+  <label>Kies richting:</label>
+  <label><input type="radio" name="dir" value="es-nl" checked> Spaans → Nederlands</label>
+  <label><input type="radio" name="dir" value="nl-es"> Nederlands → Spaans</label>
+
+  <button id="btn-next" style="margin-top:12px;">Nieuwe Vraag</button>
+  <p id="question"></p>
+  <input type="hidden" id="correct">
+  <input type="text" id="answer" placeholder="Typ hier je antwoord...">
+  <button id="btn-check">Controleer</button>
+  <p class="feedback" id="feedback"></p>
+
+  <div class="stats">
+    <span>Goed: <strong id="good-count">0</strong></span> |
+    <span>Fout: <strong id="wrong-count">0</strong></span>
+  </div>
+
+  <script>
+    const data = JSON.parse(sessionStorage.getItem('verbsData'));
+    const verbs = Array.isArray(data) ? data : data.verbs;
+    let queue = [...verbs];
+    let goodCount = 0, wrongCount = 0;
+
+    function shuffle(a) {
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]];
+      }
+    }
+    shuffle(queue);
+
+    function getDirection() {
+      return document.querySelector('input[name="dir"]:checked').value;
+    }
+
+    function nextQuestion() {
+      if (queue.length === 0) {
+        queue = [...verbs]; shuffle(queue);
+      }
+      const verb = queue.shift();
+      const dir = getDirection();
+      let question, answer;
+      if (dir === 'es-nl') {
+        question = verb.spanish; answer = verb.dutch;
+      } else {
+        question = verb.dutch; answer = verb.spanish;
+      }
+      document.getElementById('question').innerHTML = `Vertaal: <strong>${question}</strong>`;
+      document.getElementById('correct').value = answer;
+      document.getElementById('feedback').textContent = '';
+      document.getElementById('answer').value = '';
+      document.getElementById('answer').focus();
+    }
+
+    function checkAnswer() {
+      const correct = document.getElementById('correct').value.trim().toLowerCase();
+      const user = document.getElementById('answer').value.trim().toLowerCase();
+      const fb = document.getElementById('feedback');
+      if (user === correct) {
+        fb.innerHTML = '<span style="color:green">Correct!</span>';
+        goodCount++;
+        document.getElementById('good-count').textContent = goodCount;
+      } else {
+        fb.innerHTML = `<span class="error">Fout! Juiste antwoord: <strong>${correct}</strong></span>`;
+        wrongCount++;
+        document.getElementById('wrong-count').textContent = wrongCount;
+        // Herhaal dit woord na 3 andere
+        const verbObj = queue.length > 0 ? queue.splice(3, 0, verbs.find(v => {
+          const dir = getDirection();
+          return (dir==='es-nl' ? v.spanish : v.dutch) === document.getElementById('question').innerText.match(/<strong>(.*?)<\/strong>/)[1];
+        })) : null;
+      }
+    }
+
+    document.getElementById('btn-next').addEventListener('click', nextQuestion);
+    document.getElementById('btn-check').addEventListener('click', checkAnswer);
+    document.getElementById('answer').addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const hasCorrect = document.getElementById('feedback').innerText.includes('Correct!');
+        if (hasCorrect) nextQuestion(); else checkAnswer();
+      }
+    });
+
+    // Start initial question
+    nextQuestion();
+  </script>
+</body>
+</html>

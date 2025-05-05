@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Trainer Startpagina</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+    .file-input { margin: 20px 0; }
+    button { padding: 10px 20px; margin: 10px; font-size: 1.1em; }
+    button:disabled { opacity: 0.5; }
+  </style>
+   <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#003366">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(console.error);
+  }
+</script>
+<body>
+  <h1>Spaanse Werkwoorden Trainer</h1>
+
+  <!-- File input -->
+  <div class="file-input">
+    <label>Laad je verbs.json:<br>
+      <input type="file" id="verbs-file" accept=".json">
+    </label>
+    <p id="load-error" style="color:red;"></p>
+  </div>
+
+  <!-- Keuze knoppen -->
+  <button id="btn-conj" disabled>Vervoegingen oefenen</button>
+  <button id="btn-trans" disabled>Vertalingen oefenen</button>
+
+  <script>
+    const fileInput = document.getElementById('verbs-file');
+    const btnConj = document.getElementById('btn-conj');
+    const btnTrans = document.getElementById('btn-trans');
+    const loadError = document.getElementById('load-error');
+
+    fileInput.addEventListener('change', e => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = ev => {
+        try {
+          const data = JSON.parse(ev.target.result);
+          const arr = Array.isArray(data) ? data : data.verbs;
+          if (!Array.isArray(arr) || !arr.length) throw new Error('Geen werkwoorden gevonden');
+          // Bewaar in sessionStorage
+          sessionStorage.setItem('verbsData', JSON.stringify(data));
+          // Activeer knoppen
+          btnConj.disabled = false;
+          btnTrans.disabled = false;
+          loadError.textContent = '';
+        } catch(err) {
+          loadError.textContent = 'JSON fout: ' + err.message;
+        }
+      };
+      reader.readAsText(file);
+    });
+
+    btnConj.addEventListener('click', () => {
+      location.href = 'conjugation.html';
+    });
+    btnTrans.addEventListener('click', () => {
+      location.href = 'translation.html';
+    });
+  </script>
+</body>
+</html>

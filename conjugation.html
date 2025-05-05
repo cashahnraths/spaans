@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Vervoegingen oefenen</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .controls { display: flex; gap: 40px; margin-top: 20px; }
+    .controls div { margin-bottom: 16px; }
+    label { font-weight: bold; display: block; margin-top: 8px; }
+    .feedback { margin-top: 12px; font-weight: bold; }
+    .error { color: red; }
+    #answer { width: 300px; }
+  </style>
+</head>
+<body>
+  <h1>Vervoegingen oefenen</h1>
+  <p><a href="index.html">⬅ Terug</a></p>
+
+  <div class="controls" id="controls">
+    <div>
+      <label>Tijden:</label>
+      <label><input type="checkbox" class="time-checkbox" value="presente" checked> Presente</label>
+      <label><input type="checkbox" class="time-checkbox" value="perfecto" checked> Pretérito Perfecto</label>
+      <label><input type="checkbox" class="time-checkbox" value="gerundio" checked> Gerundio</label>
+    </div>
+    <div>
+      <label>Persoon:</label>
+      <label><input type="checkbox" class="person-checkbox" value="yo" checked> yo</label>
+      <label><input type="checkbox" class="person-checkbox" value="tú" checked> tú</label>
+      <label><input type="checkbox" class="person-checkbox" value="él/ella/Ud." checked> él/ella/Ud.</label>
+      <label><input type="checkbox" class="person-checkbox" value="nosotros" checked> nosotros</label>
+      <label><input type="checkbox" class="person-checkbox" value="vosotros" checked> vosotros</label>
+      <label><input type="checkbox" class="person-checkbox" value="ellos/ellas/Uds." checked> ellos/ellas/Uds.</label>
+    </div>
+  </div>
+
+  <button id="new-btn" onclick="nextQuestion()" style="margin-top:20px;">Nieuwe Vraag</button>
+  <p id="question"></p>
+  <input type="hidden" id="verb-data">
+  <input type="text" id="answer" placeholder="Typ hier je vervoeging...">
+  <button id="check-btn" onclick="checkAnswer()">Controleer</button>
+  <p class="feedback" id="feedback"></p>
+
+  <script>
+    // Lees data uit sessionStorage
+    const stored = JSON.parse(sessionStorage.getItem('verbsData'));
+    const verbs = Array.isArray(stored) ? stored : stored.verbs;
+    const haberForms = stored.haber_forms || {};
+    const estarForms = stored.progressive || {};
+
+    function getSelections(selector) {
+      return Array.from(document.querySelectorAll(selector))
+        .filter(cb => cb.checked)
+        .map(cb => cb.value);
+    }
+
+    function nextQuestion() {
+      const times = getSelections('.time-checkbox');
+      const persons = getSelections('.person-checkbox');
+      if (!times.length || !persons.length) {
+        document.getElementById('feedback').innerHTML = '<span class="error">Kies minstens één tijd en één persoon.</span>';
+        return;
+      }
+      const verb = verbs[Math.floor(Math.random() * verbs.length)];
+      const timeKey = times[Math.floor(Math.random() * times.length)];
+      const personKey = persons[Math.floor(Math.random() * persons.length)];
+      const inf = verb.spanish;
+      const trans = verb.dutch;
+      document.getElementById('question').innerHTML =
+        `Vervoeg <strong>${inf}</strong> (<em>${trans}</em>) voor <strong>${personKey}</strong> in <strong>${timeKey}</strong>:`;
+      document.getElementById('verb-data').value = JSON.stringify({ verb, timeKey, personKey });
+      document.getElementById('answer').value = '';
+      document.getElementById('feedback').textContent = '';
+      document.getElementById('answer').focus();
+    }
+
+    function checkAnswer() {
+      const { verb, timeKey, personKey } = JSON.parse(document.getElementById('verb-data').value);
+      let correct = '';
+      const keyMap = { presente:'conjugation', perfecto:'perfecto', gerundio:'progressive' };
+      const forms = verb[keyMap[timeKey]];
+      if (forms && typeof forms === 'object') {
+        correct = forms[personKey] || '';
+      }
+      const user = document.getElementById('answer').value.trim().toLowerCase();
+      document.getElementById('feedback').innerHTML =
+        user === correct.toLowerCase()
+          ? '<span style="color:green">Correct!</span>'
+          : `<span style="color:red">Fout. Juiste antwoord: <strong>${correct}</strong></span>`;
+    }
+
+    document.getElementById('answer').addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const fb = document.getElementById('feedback').innerText;
+        if (fb.includes('Correct!')) nextQuestion(); else checkAnswer();
+      }
+    });
+
+    // Start
+    nextQuestion();
+  </script>
+</body>
+</html>

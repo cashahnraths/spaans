@@ -1,0 +1,2846 @@
+{
+  "verbs": [
+    {
+      "spanish": "abrir",
+      "dutch": "openen",
+      "conjugation": {
+        "yo": "abro",
+        "tú": "abres",
+        "él/ella/Ud.": "abre",
+        "nosotros": "abrimos",
+        "vosotros": "abrís",
+        "ellos/ellas/Uds.": "abren"
+      },
+      "perfecto": {
+        "yo": "he abierto",
+        "tú": "has abierto",
+        "él/ella/Ud.": "ha abierto",
+        "nosotros": "hemos abierto",
+        "vosotros": "habéis abierto",
+        "ellos/ellas/Uds.": "han abierto"
+      },
+      "gerundio": "abriendo",
+      "progressive": {
+        "yo": "estoy abriendo",
+        "tú": "estás abriendo",
+        "él/ella/Ud.": "está abriendo",
+        "nosotros": "estamos abriendo",
+        "vosotros": "estáis abriendo",
+        "ellos/ellas/Uds.": "están abriendo"
+      }
+    },
+    {
+      "spanish": "acostarse",
+      "dutch": "gaan slapen",
+      "conjugation": {
+        "yo": "me acuesto",
+        "tú": "te acuestas",
+        "él/ella/Ud.": "se acuesta",
+        "nosotros": "nos acostamos",
+        "vosotros": "os acostáis",
+        "ellos/ellas/Uds.": "se acuestan"
+      },
+      "perfecto": {
+        "yo": "me he acostado",
+        "tú": "te has acostado",
+        "él/ella/Ud.": "se ha acostado",
+        "nosotros": "nos hemos acostado",
+        "vosotros": "os habéis acostado",
+        "ellos/ellas/Uds.": "se han acostado"
+      },
+      "gerundio": "acostándose",
+      "progressive": {
+        "yo": "me estoy acostando",
+        "tú": "te estás acostando",
+        "él/ella/Ud.": "se está acostando",
+        "nosotros": "nos estamos acostando",
+        "vosotros": "os estáis acostando",
+        "ellos/ellas/Uds.": "se están acostando"
+      }
+    },
+    {
+      "spanish": "actuar",
+      "dutch": "optreden",
+      "conjugation": {
+        "yo": "actúo",
+        "tú": "actúas",
+        "él/ella/Ud.": "actúa",
+        "nosotros": "actuamos",
+        "vosotros": "actuáis",
+        "ellos/ellas/Uds.": "actúan"
+      },
+      "perfecto": {
+        "yo": "he actuado",
+        "tú": "has actuado",
+        "él/ella/Ud.": "ha actuado",
+        "nosotros": "hemos actuado",
+        "vosotros": "habéis actuado",
+        "ellos/ellas/Uds.": "han actuado"
+      },
+      "gerundio": "actuando",
+      "progressive": {
+        "yo": "estoy actuando",
+        "tú": "estás actuando",
+        "él/ella/Ud.": "está actuando",
+        "nosotros": "estamos actuando",
+        "vosotros": "estáis actuando",
+        "ellos/ellas/Uds.": "están actuando"
+      }
+    },
+    {
+      "spanish": "almorzar",
+      "dutch": "lunchen",
+      "conjugation": {
+        "yo": "almuerzo",
+        "tú": "almuerzas",
+        "él/ella/Ud.": "almuerza",
+        "nosotros": "almorzamos",
+        "vosotros": "almorzáis",
+        "ellos/ellas/Uds.": "almuerzan"
+      },
+      "perfecto": {
+        "yo": "he almorzado",
+        "tú": "has almorzado",
+        "él/ella/Ud.": "ha almorzado",
+        "nosotros": "hemos almorzado",
+        "vosotros": "habéis almorzado",
+        "ellos/ellas/Uds.": "han almorzado"
+      },
+      "gerundio": "almorzando",
+      "progressive": {
+        "yo": "estoy almorzando",
+        "tú": "estás almorzando",
+        "él/ella/Ud.": "está almorzando",
+        "nosotros": "estamos almorzando",
+        "vosotros": "estáis almorzando",
+        "ellos/ellas/Uds.": "están almorzando"
+      }
+    },
+    {
+      "spanish": "aprender",
+      "dutch": "leren",
+      "conjugation": {
+        "yo": "aprendo",
+        "tú": "aprendes",
+        "él/ella/Ud.": "aprende",
+        "nosotros": "aprendemos",
+        "vosotros": "aprendéis",
+        "ellos/ellas/Uds.": "aprenden"
+      },
+      "perfecto": {
+        "yo": "he aprendido",
+        "tú": "has aprendido",
+        "él/ella/Ud.": "ha aprendido",
+        "nosotros": "hemos aprendido",
+        "vosotros": "habéis aprendido",
+        "ellos/ellas/Uds.": "han aprendido"
+      },
+      "gerundio": "aprendiendo",
+      "progressive": {
+        "yo": "estoy aprendiendo",
+        "tú": "estás aprendiendo",
+        "él/ella/Ud.": "está aprendiendo",
+        "nosotros": "estamos aprendiendo",
+        "vosotros": "estáis aprendiendo",
+        "ellos/ellas/Uds.": "están aprendiendo"
+      }
+    },
+    {
+      "spanish": "apuntar",
+      "dutch": "noteren",
+      "conjugation": {
+        "yo": "apunto",
+        "tú": "apuntas",
+        "él/ella/Ud.": "apunta",
+        "nosotros": "apuntamos",
+        "vosotros": "apuntáis",
+        "ellos/ellas/Uds.": "apuntan"
+      },
+      "perfecto": {
+        "yo": "he apuntado",
+        "tú": "has apuntado",
+        "él/ella/Ud.": "ha apuntado",
+        "nosotros": "hemos apuntado",
+        "vosotros": "habéis apuntado",
+        "ellos/ellas/Uds.": "han apuntado"
+      },
+      "gerundio": "apuntando",
+      "progressive": {
+        "yo": "estoy apuntando",
+        "tú": "estás apuntando",
+        "él/ella/Ud.": "está apuntando",
+        "nosotros": "estamos apuntando",
+        "vosotros": "estáis apuntando",
+        "ellos/ellas/Uds.": "están apuntando"
+      }
+    },
+    {
+      "spanish": "ayudar",
+      "dutch": "helpen",
+      "conjugation": {
+        "yo": "ayudo",
+        "tú": "ayudas",
+        "él/ella/Ud.": "ayuda",
+        "nosotros": "ayudamos",
+        "vosotros": "ayudáis",
+        "ellos/ellas/Uds.": "ayudan"
+      },
+      "perfecto": {
+        "yo": "he ayudado",
+        "tú": "has ayudado",
+        "él/ella/Ud.": "ha ayudado",
+        "nosotros": "hemos ayudado",
+        "vosotros": "habéis ayudado",
+        "ellos/ellas/Uds.": "han ayudado"
+      },
+      "gerundio": "ayudando",
+      "progressive": {
+        "yo": "estoy ayudando",
+        "tú": "estás ayudando",
+        "él/ella/Ud.": "está ayudando",
+        "nosotros": "estamos ayudando",
+        "vosotros": "estáis ayudando",
+        "ellos/ellas/Uds.": "están ayudando"
+      }
+    },
+    {
+      "spanish": "bailar",
+      "dutch": "dansen",
+      "conjugation": {
+        "yo": "bailo",
+        "tú": "bailas",
+        "él/ella/Ud.": "baila",
+        "nosotros": "bailamos",
+        "vosotros": "bailáis",
+        "ellos/ellas/Uds.": "bailan"
+      },
+      "perfecto": {
+        "yo": "he bailado",
+        "tú": "has bailado",
+        "él/ella/Ud.": "ha bailado",
+        "nosotros": "hemos bailado",
+        "vosotros": "habéis bailado",
+        "ellos/ellas/Uds.": "han bailado"
+      },
+      "gerundio": "bailando",
+      "progressive": {
+        "yo": "estoy bailando",
+        "tú": "estás bailando",
+        "él/ella/Ud.": "está bailando",
+        "nosotros": "estamos bailando",
+        "vosotros": "estáis bailando",
+        "ellos/ellas/Uds.": "están bailando"
+      }
+    },
+    {
+      "spanish": "beber",
+      "dutch": "drinken",
+      "conjugation": {
+        "yo": "bebo",
+        "tú": "bebes",
+        "él/ella/Ud.": "bebe",
+        "nosotros": "bebemos",
+        "vosotros": "bebéis",
+        "ellos/ellas/Uds.": "beben"
+      },
+      "perfecto": {
+        "yo": "he bebido",
+        "tú": "has bebido",
+        "él/ella/Ud.": "ha bebido",
+        "nosotros": "hemos bebido",
+        "vosotros": "habéis bebido",
+        "ellos/ellas/Uds.": "han bebido"
+      },
+      "gerundio": "bebiendo",
+      "progressive": {
+        "yo": "estoy bebiendo",
+        "tú": "estás bebiendo",
+        "él/ella/Ud.": "está bebiendo",
+        "nosotros": "estamos bebiendo",
+        "vosotros": "estáis bebiendo",
+        "ellos/ellas/Uds.": "están bebiendo"
+      }
+    },
+    {
+      "spanish": "cantar",
+      "dutch": "zingen",
+      "conjugation": {
+        "yo": "canto",
+        "tú": "cantas",
+        "él/ella/Ud.": "canta",
+        "nosotros": "cantamos",
+        "vosotros": "cantáis",
+        "ellos/ellas/Uds.": "cantan"
+      },
+      "perfecto": {
+        "yo": "he cantado",
+        "tú": "has cantado",
+        "él/ella/Ud.": "ha cantado",
+        "nosotros": "hemos cantado",
+        "vosotros": "habéis cantado",
+        "ellos/ellas/Uds.": "han cantado"
+      },
+      "gerundio": "cantando",
+      "progressive": {
+        "yo": "estoy cantando",
+        "tú": "estás cantando",
+        "él/ella/Ud.": "está cantando",
+        "nosotros": "estamos cantando",
+        "vosotros": "estáis cantando",
+        "ellos/ellas/Uds.": "están cantando"
+      }
+    },
+    {
+      "spanish": "cenar",
+      "dutch": "dineren",
+      "conjugation": {
+        "yo": "ceno",
+        "tú": "cenas",
+        "él/ella/Ud.": "cena",
+        "nosotros": "cenamos",
+        "vosotros": "cenáis",
+        "ellos/ellas/Uds.": "cenan"
+      },
+      "perfecto": {
+        "yo": "he cenado",
+        "tú": "has cenado",
+        "él/ella/Ud.": "ha cenado",
+        "nosotros": "hemos cenado",
+        "vosotros": "habéis cenado",
+        "ellos/ellas/Uds.": "han cenado"
+      },
+      "gerundio": "cenando",
+      "progressive": {
+        "yo": "estoy cenando",
+        "tú": "estás cenando",
+        "él/ella/Ud.": "está cenando",
+        "nosotros": "estamos cenando",
+        "vosotros": "estáis cenando",
+        "ellos/ellas/Uds.": "están cenando"
+      }
+    },
+    {
+      "spanish": "charlar",
+      "dutch": "kletsen",
+      "conjugation": {
+        "yo": "charlo",
+        "tú": "charlas",
+        "él/ella/Ud.": "charla",
+        "nosotros": "charlamos",
+        "vosotros": "charláis",
+        "ellos/ellas/Uds.": "charlan"
+      },
+      "perfecto": {
+        "yo": "he charlado",
+        "tú": "has charlado",
+        "él/ella/Ud.": "ha charlado",
+        "nosotros": "hemos charlado",
+        "vosotros": "habéis charlado",
+        "ellos/ellas/Uds.": "han charlado"
+      },
+      "gerundio": "charlando",
+      "progressive": {
+        "yo": "estoy charlando",
+        "tú": "estás charlando",
+        "él/ella/Ud.": "está charlando",
+        "nosotros": "estamos charlando",
+        "vosotros": "estáis charlando",
+        "ellos/ellas/Uds.": "están charlando"
+      }
+    },
+    {
+      "spanish": "cocinar",
+      "dutch": "koken",
+      "conjugation": {
+        "yo": "cocino",
+        "tú": "cocinas",
+        "él/ella/Ud.": "cocina",
+        "nosotros": "cocinamos",
+        "vosotros": "cocináis",
+        "ellos/ellas/Uds.": "cocinan"
+      },
+      "perfecto": {
+        "yo": "he cocinado",
+        "tú": "has cocinado",
+        "él/ella/Ud.": "ha cocinado",
+        "nosotros": "hemos cocinado",
+        "vosotros": "habéis cocinado",
+        "ellos/ellas/Uds.": "han cocinado"
+      },
+      "gerundio": "cocinando",
+      "progressive": {
+        "yo": "estoy cocinando",
+        "tú": "estás cocinando",
+        "él/ella/Ud.": "está cocinando",
+        "nosotros": "estamos cocinando",
+        "vosotros": "estáis cocinando",
+        "ellos/ellas/Uds.": "están cocinando"
+      }
+    },
+    {
+      "spanish": "coger",
+      "dutch": "pakken",
+      "conjugation": {
+        "yo": "cojo",
+        "tú": "coges",
+        "él/ella/Ud.": "coge",
+        "nosotros": "cogemos",
+        "vosotros": "cogéis",
+        "ellos/ellas/Uds.": "cogen"
+      },
+      "perfecto": {
+        "yo": "he cogido",
+        "tú": "has cogido",
+        "él/ella/Ud.": "ha cogido",
+        "nosotros": "hemos cogido",
+        "vosotros": "habéis cogido",
+        "ellos/ellas/Uds.": "han cogido"
+      },
+      "gerundio": "cogiendo",
+      "progressive": {
+        "yo": "estoy cogiendo",
+        "tú": "estás cogiendo",
+        "él/ella/Ud.": "está cogiendo",
+        "nosotros": "estamos cogiendo",
+        "vosotros": "estáis cogiendo",
+        "ellos/ellas/Uds.": "están cogiendo"
+      }
+    },
+    {
+      "spanish": "colocar",
+      "dutch": "plaatsen",
+      "conjugation": {
+        "yo": "coloco",
+        "tú": "colocas",
+        "él/ella/Ud.": "coloca",
+        "nosotros": "colocamos",
+        "vosotros": "colocáis",
+        "ellos/ellas/Uds.": "colocan"
+      },
+      "perfecto": {
+        "yo": "he colocado",
+        "tú": "has colocado",
+        "él/ella/Ud.": "ha colocado",
+        "nosotros": "hemos colocado",
+        "vosotros": "habéis colocado",
+        "ellos/ellas/Uds.": "han colocado"
+      },
+      "gerundio": "colocando",
+      "progressive": {
+        "yo": "estoy colocando",
+        "tú": "estás colocando",
+        "él/ella/Ud.": "está colocando",
+        "nosotros": "estamos colocando",
+        "vosotros": "estáis colocando",
+        "ellos/ellas/Uds.": "están colocando"
+      }
+    },
+    {
+      "spanish": "comer",
+      "dutch": "eten",
+      "conjugation": {
+        "yo": "como",
+        "tú": "comes",
+        "él/ella/Ud.": "come",
+        "nosotros": "comemos",
+        "vosotros": "coméis",
+        "ellos/ellas/Uds.": "comen"
+      },
+      "perfecto": {
+        "yo": "he comido",
+        "tú": "has comido",
+        "él/ella/Ud.": "ha comido",
+        "nosotros": "hemos comido",
+        "vosotros": "habéis comido",
+        "ellos/ellas/Uds.": "han comido"
+      },
+      "gerundio": "comiendo",
+      "progressive": {
+        "yo": "estoy comiendo",
+        "tú": "estás comiendo",
+        "él/ella/Ud.": "está comiendo",
+        "nosotros": "estamos comiendo",
+        "vosotros": "estáis comiendo",
+        "ellos/ellas/Uds.": "están comiendo"
+      }
+    },
+    {
+      "spanish": "compartir",
+      "dutch": "delen",
+      "conjugation": {
+        "yo": "comparto",
+        "tú": "compartes",
+        "él/ella/Ud.": "comparte",
+        "nosotros": "compartimos",
+        "vosotros": "compartís",
+        "ellos/ellas/Uds.": "comparten"
+      },
+      "perfecto": {
+        "yo": "he compartido",
+        "tú": "has compartido",
+        "él/ella/Ud.": "ha compartido",
+        "nosotros": "hemos compartido",
+        "vosotros": "habéis compartido",
+        "ellos/ellas/Uds.": "han compartido"
+      },
+      "gerundio": "compartiendo",
+      "progressive": {
+        "yo": "estoy compartiendo",
+        "tú": "estás compartiendo",
+        "él/ella/Ud.": "está compartiendo",
+        "nosotros": "estamos compartiendo",
+        "vosotros": "estáis compartiendo",
+        "ellos/ellas/Uds.": "están compartiendo"
+      }
+    },
+    {
+      "spanish": "comprar",
+      "dutch": "kopen",
+      "conjugation": {
+        "yo": "compro",
+        "tú": "compras",
+        "él/ella/Ud.": "compra",
+        "nosotros": "compramos",
+        "vosotros": "compráis",
+        "ellos/ellas/Uds.": "compran"
+      },
+      "perfecto": {
+        "yo": "he comprado",
+        "tú": "has comprado",
+        "él/ella/Ud.": "ha comprado",
+        "nosotros": "hemos comprado",
+        "vosotros": "habéis comprado",
+        "ellos/ellas/Uds.": "han comprado"
+      },
+      "gerundio": "comprando",
+      "progressive": {
+        "yo": "estoy comprando",
+        "tú": "estás comprando",
+        "él/ella/Ud.": "está comprando",
+        "nosotros": "estamos comprando",
+        "vosotros": "estáis comprando",
+        "ellos/ellas/Uds.": "están comprando"
+      }
+    },
+    {
+      "spanish": "conocer",
+      "dutch": "kennen",
+      "conjugation": {
+        "yo": "conozco",
+        "tú": "conoces",
+        "él/ella/Ud.": "conoce",
+        "nosotros": "conocemos",
+        "vosotros": "conocéis",
+        "ellos/ellas/Uds.": "conocen"
+      },
+      "perfecto": {
+        "yo": "he conocido",
+        "tú": "has conocido",
+        "él/ella/Ud.": "ha conocido",
+        "nosotros": "hemos conocido",
+        "vosotros": "habéis conocido",
+        "ellos/ellas/Uds.": "han conocido"
+      },
+      "gerundio": "conociendo",
+      "progressive": {
+        "yo": "estoy conociendo",
+        "tú": "estás conociendo",
+        "él/ella/Ud.": "está conociendo",
+        "nosotros": "estamos conociendo",
+        "vosotros": "estáis conociendo",
+        "ellos/ellas/Uds.": "están conociendo"
+      }
+    },
+    {
+      "spanish": "contar",
+      "dutch": "vertellen / tellen",
+      "conjugation": {
+        "yo": "cuento",
+        "tú": "cuentas",
+        "él/ella/Ud.": "cuenta",
+        "nosotros": "contamos",
+        "vosotros": "contáis",
+        "ellos/ellas/Uds.": "cuentan"
+      },
+      "perfecto": {
+        "yo": "he contado",
+        "tú": "has contado",
+        "él/ella/Ud.": "ha contado",
+        "nosotros": "hemos contado",
+        "vosotros": "habéis contado",
+        "ellos/ellas/Uds.": "han contado"
+      },
+      "gerundio": "contando",
+      "progressive": {
+        "yo": "estoy contando",
+        "tú": "estás contando",
+        "él/ella/Ud.": "está contando",
+        "nosotros": "estamos contando",
+        "vosotros": "estáis contando",
+        "ellos/ellas/Uds.": "están contando"
+      }
+    },
+    {
+      "spanish": "correr",
+      "dutch": "rennen",
+      "conjugation": {
+        "yo": "corro",
+        "tú": "corres",
+        "él/ella/Ud.": "corre",
+        "nosotros": "corremos",
+        "vosotros": "corréis",
+        "ellos/ellas/Uds.": "corren"
+      },
+      "perfecto": {
+        "yo": "he corrido",
+        "tú": "has corrido",
+        "él/ella/Ud.": "ha corrido",
+        "nosotros": "hemos corrido",
+        "vosotros": "habéis corrido",
+        "ellos/ellas/Uds.": "han corrido"
+      },
+      "gerundio": "corriendo",
+      "progressive": {
+        "yo": "estoy corriendo",
+        "tú": "estás corriendo",
+        "él/ella/Ud.": "está corriendo",
+        "nosotros": "estamos corriendo",
+        "vosotros": "estáis corriendo",
+        "ellos/ellas/Uds.": "están corriendo"
+      }
+    },
+    {
+      "spanish": "costar",
+      "dutch": "kosten",
+      "conjugation": {
+        "yo": "cuesto",
+        "tú": "cuestas",
+        "él/ella/Ud.": "cuesta",
+        "nosotros": "costamos",
+        "vosotros": "costáis",
+        "ellos/ellas/Uds.": "cuestan"
+      },
+      "perfecto": {
+        "yo": "he costado",
+        "tú": "has costado",
+        "él/ella/Ud.": "ha costado",
+        "nosotros": "hemos costado",
+        "vosotros": "habéis costado",
+        "ellos/ellas/Uds.": "han costado"
+      },
+      "gerundio": "costando",
+      "progressive": {
+        "yo": "estoy costando",
+        "tú": "estás costando",
+        "él/ella/Ud.": "está costando",
+        "nosotros": "estamos costando",
+        "vosotros": "estáis costando",
+        "ellos/ellas/Uds.": "están costando"
+      }
+    },
+    {
+      "spanish": "creer",
+      "dutch": "geloven / denken",
+      "conjugation": {
+        "yo": "creo",
+        "tú": "crees",
+        "él/ella/Ud.": "cree",
+        "nosotros": "creemos",
+        "vosotros": "creéis",
+        "ellos/ellas/Uds.": "creen"
+      },
+      "perfecto": {
+        "yo": "he creído",
+        "tú": "has creído",
+        "él/ella/Ud.": "ha creído",
+        "nosotros": "hemos creído",
+        "vosotros": "habéis creído",
+        "ellos/ellas/Uds.": "han creído"
+      },
+      "gerundio": "creyendo",
+      "progressive": {
+        "yo": "estoy creyendo",
+        "tú": "estás creyendo",
+        "él/ella/Ud.": "está creyendo",
+        "nosotros": "estamos creyendo",
+        "vosotros": "estáis creyendo",
+        "ellos/ellas/Uds.": "están creyendo"
+      }
+    },
+    {
+      "spanish": "cruzar",
+      "dutch": "oversteken",
+      "conjugation": {
+        "yo": "cruzo",
+        "tú": "cruzas",
+        "él/ella/Ud.": "cruza",
+        "nosotros": "cruzamos",
+        "vosotros": "cruzáis",
+        "ellos/ellas/Uds.": "cruzan"
+      },
+      "perfecto": {
+        "yo": "he cruzado",
+        "tú": "has cruzado",
+        "él/ella/Ud.": "ha cruzado",
+        "nosotros": "hemos cruzado",
+        "vosotros": "habéis cruzado",
+        "ellos/ellas/Uds.": "han cruzado"
+      },
+      "gerundio": "cruzando",
+      "progressive": {
+        "yo": "estoy cruzando",
+        "tú": "estás cruzando",
+        "él/ella/Ud.": "está cruzando",
+        "nosotros": "estamos cruzando",
+        "vosotros": "estáis cruzando",
+        "ellos/ellas/Uds.": "están cruzando"
+      }
+    },
+    {
+      "spanish": "decir",
+      "dutch": "zeggen",
+      "conjugation": {
+        "yo": "digo",
+        "tú": "dices",
+        "él/ella/Ud.": "dice",
+        "nosotros": "decimos",
+        "vosotros": "decís",
+        "ellos/ellas/Uds.": "dicen"
+      },
+      "perfecto": {
+        "yo": "he dicho",
+        "tú": "has dicho",
+        "él/ella/Ud.": "ha dicho",
+        "nosotros": "hemos dicho",
+        "vosotros": "habéis dicho",
+        "ellos/ellas/Uds.": "han dicho"
+      },
+      "gerundio": "diciendo",
+      "progressive": {
+        "yo": "estoy diciendo",
+        "tú": "estás diciendo",
+        "él/ella/Ud.": "está diciendo",
+        "nosotros": "estamos diciendo",
+        "vosotros": "estáis diciendo",
+        "ellos/ellas/Uds.": "están diciendo"
+      }
+    },
+    {
+      "spanish": "decorar",
+      "dutch": "inrichten",
+      "conjugation": {
+        "yo": "decoro",
+        "tú": "decoras",
+        "él/ella/Ud.": "decora",
+        "nosotros": "decoramos",
+        "vosotros": "decoráis",
+        "ellos/ellas/Uds.": "decoran"
+      },
+      "perfecto": {
+        "yo": "he decorado",
+        "tú": "has decorado",
+        "él/ella/Ud.": "ha decorado",
+        "nosotros": "hemos decorado",
+        "vosotros": "habéis decorado",
+        "ellos/ellas/Uds.": "han decorado"
+      },
+      "gerundio": "decorando",
+      "progressive": {
+        "yo": "estoy decorando",
+        "tú": "estás decorando",
+        "él/ella/Ud.": "está decorando",
+        "nosotros": "estamos decorando",
+        "vosotros": "estáis decorando",
+        "ellos/ellas/Uds.": "están decorando"
+      }
+    },
+    {
+      "spanish": "dedicarse",
+      "dutch": "zich wijden aan",
+      "conjugation": {
+        "yo": "me dedico",
+        "tú": "te dedicas",
+        "él/ella/Ud.": "se dedica",
+        "nosotros": "nos dedicamos",
+        "vosotros": "os dedicáis",
+        "ellos/ellas/Uds.": "se dedican"
+      },
+      "perfecto": {
+        "yo": "me he dedicado",
+        "tú": "te has dedicado",
+        "él/ella/Ud.": "se ha dedicado",
+        "nosotros": "nos hemos dedicado",
+        "vosotros": "os habéis dedicado",
+        "ellos/ellas/Uds.": "se han dedicado"
+      },
+      "gerundio": "dedicándose",
+      "progressive": {
+        "yo": "me estoy dedicando",
+        "tú": "te estás dedicando",
+        "él/ella/Ud.": "se está dedicando",
+        "nosotros": "nos estamos dedicando",
+        "vosotros": "os estáis dedicando",
+        "ellos/ellas/Uds.": "se están dedicando"
+      }
+    },
+    {
+      "spanish": "dejar",
+      "dutch": "achterlaten",
+      "conjugation": {
+        "yo": "dejo",
+        "tú": "dejas",
+        "él/ella/Ud.": "deja",
+        "nosotros": "dejamos",
+        "vosotros": "dejáis",
+        "ellos/ellas/Uds.": "dejan"
+      },
+      "perfecto": {
+        "yo": "he dejado",
+        "tú": "has dejado",
+        "él/ella/Ud.": "ha dejado",
+        "nosotros": "hemos dejado",
+        "vosotros": "habéis dejado",
+        "ellos/ellas/Uds.": "han dejado"
+      },
+      "gerundio": "dejando",
+      "progressive": {
+        "yo": "estoy dejando",
+        "tú": "estás dejando",
+        "él/ella/Ud.": "está dejando",
+        "nosotros": "estamos dejando",
+        "vosotros": "estáis dejando",
+        "ellos/ellas/Uds.": "están dejando"
+      }
+    },
+    {
+      "spanish": "desayunar",
+      "dutch": "ontbijten",
+      "conjugation": {
+        "yo": "desayuno",
+        "tú": "desayunas",
+        "él/ella/Ud.": "desayuna",
+        "nosotros": "desayunamos",
+        "vosotros": "desayunáis",
+        "ellos/ellas/Uds.": "desayunan"
+      },
+      "perfecto": {
+        "yo": "he desayunado",
+        "tú": "has desayunado",
+        "él/ella/Ud.": "ha desayunado",
+        "nosotros": "hemos desayunado",
+        "vosotros": "habéis desayunado",
+        "ellos/ellas/Uds.": "han desayunado"
+      },
+      "gerundio": "desayunando",
+      "progressive": {
+        "yo": "estoy desayunando",
+        "tú": "estás desayunando",
+        "él/ella/Ud.": "está desayunando",
+        "nosotros": "estamos desayunando",
+        "vosotros": "estáis desayunando",
+        "ellos/ellas/Uds.": "están desayunando"
+      }
+    },
+    {
+      "spanish": "descansar",
+      "dutch": "uitrusten",
+      "conjugation": {
+        "yo": "descanso",
+        "tú": "descansas",
+        "él/ella/Ud.": "descansa",
+        "nosotros": "descansamos",
+        "vosotros": "descansáis",
+        "ellos/ellas/Uds.": "descansan"
+      },
+      "perfecto": {
+        "yo": "he descansado",
+        "tú": "has descansado",
+        "él/ella/Ud.": "ha descansado",
+        "nosotros": "hemos descansado",
+        "vosotros": "habéis descansado",
+        "ellos/ellas/Uds.": "han descansado"
+      },
+      "gerundio": "descansando",
+      "progressive": {
+        "yo": "estoy descansando",
+        "tú": "estás descansando",
+        "él/ella/Ud.": "está descansando",
+        "nosotros": "estamos descansando",
+        "vosotros": "estáis descansando",
+        "ellos/ellas/Uds.": "están descansando"
+      }
+    },
+    {
+      "spanish": "desear",
+      "dutch": "wensen",
+      "conjugation": {
+        "yo": "deseo",
+        "tú": "deseas",
+        "él/ella/Ud.": "desea",
+        "nosotros": "deseamos",
+        "vosotros": "deseáis",
+        "ellos/ellas/Uds.": "desean"
+      },
+      "perfecto": {
+        "yo": "he deseado",
+        "tú": "has deseado",
+        "él/ella/Ud.": "ha deseado",
+        "nosotros": "hemos deseado",
+        "vosotros": "habéis deseado",
+        "ellos/ellas/Uds.": "han deseado"
+      },
+      "gerundio": "deseando",
+      "progressive": {
+        "yo": "estoy deseando",
+        "tú": "estás deseando",
+        "él/ella/Ud.": "está deseando",
+        "nosotros": "estamos deseando",
+        "vosotros": "estáis deseando",
+        "ellos/ellas/Uds.": "están deseando"
+      }
+    },
+    {
+      "spanish": "despertarse",
+      "dutch": "wakker worden",
+      "conjugation": {
+        "yo": "me despierto",
+        "tú": "te despiertas",
+        "él/ella/Ud.": "se despierta",
+        "nosotros": "nos despertamos",
+        "vosotros": "os despertáis",
+        "ellos/ellas/Uds.": "se despiertan"
+      },
+      "perfecto": {
+        "yo": "me he despertado",
+        "tú": "te has despertado",
+        "él/ella/Ud.": "se ha despertado",
+        "nosotros": "nos hemos despertado",
+        "vosotros": "os habéis despertado",
+        "ellos/ellas/Uds.": "se han despertado"
+      },
+      "gerundio": "despertándose",
+      "progressive": {
+        "yo": "me estoy despertando",
+        "tú": "te estás despertando",
+        "él/ella/Ud.": "se está despertando",
+        "nosotros": "nos estamos despertando",
+        "vosotros": "os estáis despertando",
+        "ellos/ellas/Uds.": "se están despertando"
+      }
+    },
+    {
+      "spanish": "doler",
+      "dutch": "pijn doen",
+      "conjugation": {
+        "yo": "duelo",
+        "tú": "dueles",
+        "él/ella/Ud.": "duele",
+        "nosotros": "dolemos",
+        "vosotros": "doléis",
+        "ellos/ellas/Uds.": "duelen"
+      },
+      "perfecto": {
+        "yo": "he dolido",
+        "tú": "has dolido",
+        "él/ella/Ud.": "ha dolido",
+        "nosotros": "hemos dolido",
+        "vosotros": "habéis dolido",
+        "ellos/ellas/Uds.": "han dolido"
+      },
+      "gerundio": "doliendo",
+      "progressive": {
+        "yo": "estoy doliendo",
+        "tú": "estás doliendo",
+        "él/ella/Ud.": "está doliendo",
+        "nosotros": "estamos doliendo",
+        "vosotros": "estáis doliendo",
+        "ellos/ellas/Uds.": "están doliendo"
+      }
+    },
+    {
+      "spanish": "ducharse",
+      "dutch": "zich douchen",
+      "conjugation": {
+        "yo": "me ducho",
+        "tú": "te duchas",
+        "él/ella/Ud.": "se ducha",
+        "nosotros": "nos duchamos",
+        "vosotros": "os ducháis",
+        "ellos/ellas/Uds.": "se duchan"
+      },
+      "perfecto": {
+        "yo": "me he duchado",
+        "tú": "te has duchado",
+        "él/ella/Ud.": "se ha duchado",
+        "nosotros": "nos hemos duchado",
+        "vosotros": "os habéis duchado",
+        "ellos/ellas/Uds.": "se han duchado"
+      },
+      "gerundio": "duchándose",
+      "progressive": {
+        "yo": "me estoy duchando",
+        "tú": "te estás duchando",
+        "él/ella/Ud.": "se está duchando",
+        "nosotros": "nos estamos duchando",
+        "vosotros": "os estáis duchando",
+        "ellos/ellas/Uds.": "se están duchando"
+      }
+    },
+    {
+      "spanish": "empezar",
+      "dutch": "beginnen",
+      "conjugation": {
+        "yo": "empiezo",
+        "tú": "empiezas",
+        "él/ella/Ud.": "empieza",
+        "nosotros": "empezamos",
+        "vosotros": "empezáis",
+        "ellos/ellas/Uds.": "empiezan"
+      },
+      "perfecto": {
+        "yo": "he empezado",
+        "tú": "has empezado",
+        "él/ella/Ud.": "ha empezado",
+        "nosotros": "hemos empezado",
+        "vosotros": "habéis empezado",
+        "ellos/ellas/Uds.": "han empezado"
+      },
+      "gerundio": "empezando",
+      "progressive": {
+        "yo": "estoy empezando",
+        "tú": "estás empezando",
+        "él/ella/Ud.": "está empezando",
+        "nosotros": "estamos empezando",
+        "vosotros": "estáis empezando",
+        "ellos/ellas/Uds.": "están empezando"
+      }
+    },
+    {
+      "spanish": "encantar",
+      "dutch": "heel leuk vinden",
+      "conjugation": {
+        "yo": "encanto",
+        "tú": "encantas",
+        "él/ella/Ud.": "encanta",
+        "nosotros": "encantamos",
+        "vosotros": "encantáis",
+        "ellos/ellas/Uds.": "encantan"
+      },
+      "perfecto": {
+        "yo": "he encantado",
+        "tú": "has encantado",
+        "él/ella/Ud.": "ha encantado",
+        "nosotros": "hemos encantado",
+        "vosotros": "habéis encantado",
+        "ellos/ellas/Uds.": "han encantado"
+      },
+      "gerundio": "encantando",
+      "progressive": {
+        "yo": "estoy encantando",
+        "tú": "estás encantando",
+        "él/ella/Ud.": "está encantando",
+        "nosotros": "estamos encantando",
+        "vosotros": "estáis encantando",
+        "ellos/ellas/Uds.": "están encantando"
+      }
+    },
+    {
+      "spanish": "escribir",
+      "dutch": "schrijven",
+      "conjugation": {
+        "yo": "escribo",
+        "tú": "escribes",
+        "él/ella/Ud.": "escribe",
+        "nosotros": "escribimos",
+        "vosotros": "escribís",
+        "ellos/ellas/Uds.": "escriben"
+      },
+      "perfecto": {
+        "yo": "he escrito",
+        "tú": "has escrito",
+        "él/ella/Ud.": "ha escrito",
+        "nosotros": "hemos escrito",
+        "vosotros": "habéis escrito",
+        "ellos/ellas/Uds.": "han escrito"
+      },
+      "gerundio": "escribiendo",
+      "progressive": {
+        "yo": "estoy escribiendo",
+        "tú": "estás escribiendo",
+        "él/ella/Ud.": "está escribiendo",
+        "nosotros": "estamos escribiendo",
+        "vosotros": "estáis escribiendo",
+        "ellos/ellas/Uds.": "están escribiendo"
+      }
+    },
+    {
+      "spanish": "escuchar",
+      "dutch": "luisteren",
+      "conjugation": {
+        "yo": "escucho",
+        "tú": "escuchas",
+        "él/ella/Ud.": "escucha",
+        "nosotros": "escuchamos",
+        "vosotros": "escucháis",
+        "ellos/ellas/Uds.": "escuchan"
+      },
+      "perfecto": {
+        "yo": "he escuchado",
+        "tú": "has escuchado",
+        "él/ella/Ud.": "ha escuchado",
+        "nosotros": "hemos escuchado",
+        "vosotros": "habéis escuchado",
+        "ellos/ellas/Uds.": "han escuchado"
+      },
+      "gerundio": "escuchando",
+      "progressive": {
+        "yo": "estoy escuchando",
+        "tú": "estás escuchando",
+        "él/ella/Ud.": "está escuchando",
+        "nosotros": "estamos escuchando",
+        "vosotros": "estáis escuchando",
+        "ellos/ellas/Uds.": "están escuchando"
+      }
+    },
+    {
+      "spanish": "esperar",
+      "dutch": "wachten",
+      "conjugation": {
+        "yo": "espero",
+        "tú": "esperas",
+        "él/ella/Ud.": "espera",
+        "nosotros": "esperamos",
+        "vosotros": "esperáis",
+        "ellos/ellas/Uds.": "esperan"
+      },
+      "perfecto": {
+        "yo": "he esperado",
+        "tú": "has esperado",
+        "él/ella/Ud.": "ha esperado",
+        "nosotros": "hemos esperado",
+        "vosotros": "habéis esperado",
+        "ellos/ellas/Uds.": "han esperado"
+      },
+      "gerundio": "esperando",
+      "progressive": {
+        "yo": "estoy esperando",
+        "tú": "estás esperando",
+        "él/ella/Ud.": "está esperando",
+        "nosotros": "estamos esperando",
+        "vosotros": "estáis esperando",
+        "ellos/ellas/Uds.": "están esperando"
+      }
+    },
+    {
+      "spanish": "estar",
+      "dutch": "zijn / zich bevinden",
+      "conjugation": {
+        "yo": "estoy",
+        "tú": "estás",
+        "él/ella/Ud.": "está",
+        "nosotros": "estamos",
+        "vosotros": "estáis",
+        "ellos/ellas/Uds.": "están"
+      },
+      "perfecto": {
+        "yo": "he estado",
+        "tú": "has estado",
+        "él/ella/Ud.": "ha estado",
+        "nosotros": "hemos estado",
+        "vosotros": "habéis estado",
+        "ellos/ellas/Uds.": "han estado"
+      },
+      "gerundio": "estando",
+      "progressive": {
+        "yo": "estoy estando",
+        "tú": "estás estando",
+        "él/ella/Ud.": "está estando",
+        "nosotros": "estamos estando",
+        "vosotros": "estáis estando",
+        "ellos/ellas/Uds.": "están estando"
+      }
+    },
+    {
+      "spanish": "estudiar",
+      "dutch": "studeren",
+      "conjugation": {
+        "yo": "estudio",
+        "tú": "estudias",
+        "él/ella/Ud.": "estudia",
+        "nosotros": "estudiamos",
+        "vosotros": "estudiáis",
+        "ellos/ellas/Uds.": "estudian"
+      },
+      "perfecto": {
+        "yo": "he estudiado",
+        "tú": "has estudiado",
+        "él/ella/Ud.": "ha estudiado",
+        "nosotros": "hemos estudiado",
+        "vosotros": "habéis estudiado",
+        "ellos/ellas/Uds.": "han estudiado"
+      },
+      "gerundio": "estudiando",
+      "progressive": {
+        "yo": "estoy estudiando",
+        "tú": "estás estudiando",
+        "él/ella/Ud.": "está estudiando",
+        "nosotros": "estamos estudiando",
+        "vosotros": "estáis estudiando",
+        "ellos/ellas/Uds.": "están estudiando"
+      }
+    },
+    {
+      "spanish": "girar",
+      "dutch": "afslaan",
+      "conjugation": {
+        "yo": "giro",
+        "tú": "giras",
+        "él/ella/Ud.": "gira",
+        "nosotros": "giramos",
+        "vosotros": "giráis",
+        "ellos/ellas/Uds.": "giran"
+      },
+      "perfecto": {
+        "yo": "he girado",
+        "tú": "has girado",
+        "él/ella/Ud.": "ha girado",
+        "nosotros": "hemos girado",
+        "vosotros": "habéis girado",
+        "ellos/ellas/Uds.": "han girado"
+      },
+      "gerundio": "girando",
+      "progressive": {
+        "yo": "estoy girando",
+        "tú": "estás girando",
+        "él/ella/Ud.": "está girando",
+        "nosotros": "estamos girando",
+        "vosotros": "estáis girando",
+        "ellos/ellas/Uds.": "están girando"
+      }
+    },
+    {
+      "spanish": "gustar",
+      "dutch": "leuk vinden",
+      "conjugation": {
+        "yo": "gusto",
+        "tú": "gustas",
+        "él/ella/Ud.": "gusta",
+        "nosotros": "gustamos",
+        "vosotros": "gustáis",
+        "ellos/ellas/Uds.": "gustan"
+      },
+      "perfecto": {
+        "yo": "he gustado",
+        "tú": "has gustado",
+        "él/ella/Ud.": "ha gustado",
+        "nosotros": "hemos gustado",
+        "vosotros": "habéis gustado",
+        "ellos/ellas/Uds.": "han gustado"
+      },
+      "gerundio": "gustando",
+      "progressive": {
+        "yo": "estoy gustando",
+        "tú": "estás gustando",
+        "él/ella/Ud.": "está gustando",
+        "nosotros": "estamos gustando",
+        "vosotros": "estáis gustando",
+        "ellos/ellas/Uds.": "están gustando"
+      }
+    },
+	{
+	  "spanish": "haber",
+	  "dutch": "er is / er zijn",
+	  "conjugation": {
+		"yo": "he",
+		"tú": "has",
+		"él/ella/Ud.": "ha",
+		"nosotros": "hemos",
+		"vosotros": "habéis",
+		"ellos/ellas/Uds.": "han"
+	  },
+	  "perfecto": {
+		"yo": "he habido",
+		"tú": "has habido",
+		"él/ella/Ud.": "ha habido",
+		"nosotros": "hemos habido",
+		"vosotros": "habéis habido",
+		"ellos/ellas/Uds.": "han habido"
+	  },
+	  "gerundio": "habiendo",
+	  "progressive": {
+		"yo": "estoy habiendo",
+		"tú": "estás habiendo",
+		"él/ella/Ud.": "está habiendo",
+		"nosotros": "estamos habiendo",
+		"vosotros": "estáis habiendo",
+		"ellos/ellas/Uds.": "están habiendo"
+	  }
+	},
+    {
+      "spanish": "hablar",
+      "dutch": "spreken",
+      "conjugation": {
+        "yo": "hablo",
+        "tú": "hablas",
+        "él/ella/Ud.": "habla",
+        "nosotros": "hablamos",
+        "vosotros": "habláis",
+        "ellos/ellas/Uds.": "hablan"
+      },
+      "perfecto": {
+        "yo": "he hablado",
+        "tú": "has hablado",
+        "él/ella/Ud.": "ha hablado",
+        "nosotros": "hemos hablado",
+        "vosotros": "habéis hablado",
+        "ellos/ellas/Uds.": "han hablado"
+      },
+      "gerundio": "hablando",
+      "progressive": {
+        "yo": "estoy hablando",
+        "tú": "estás hablando",
+        "él/ella/Ud.": "está hablando",
+        "nosotros": "estamos hablando",
+        "vosotros": "estáis hablando",
+        "ellos/ellas/Uds.": "están hablando"
+      }
+    },
+    {
+      "spanish": "hacer",
+      "dutch": "doen",
+      "conjugation": {
+        "yo": "hago",
+        "tú": "haces",
+        "él/ella/Ud.": "hace",
+        "nosotros": "hacemos",
+        "vosotros": "hacéis",
+        "ellos/ellas/Uds.": "hacen"
+      },
+      "perfecto": {
+        "yo": "he hecho",
+        "tú": "has hecho",
+        "él/ella/Ud.": "ha hecho",
+        "nosotros": "hemos hecho",
+        "vosotros": "habéis hecho",
+        "ellos/ellas/Uds.": "han hecho"
+      },
+      "gerundio": "haciendo",
+      "progressive": {
+        "yo": "estoy haciendo",
+        "tú": "estás haciendo",
+        "él/ella/Ud.": "está haciendo",
+        "nosotros": "estamos haciendo",
+        "vosotros": "estáis haciendo",
+        "ellos/ellas/Uds.": "están haciendo"
+      }
+    },
+    {
+      "spanish": "interesar",
+      "dutch": "interesseren",
+      "conjugation": {
+        "yo": "intereso",
+        "tú": "interesas",
+        "él/ella/Ud.": "interesa",
+        "nosotros": "interesamos",
+        "vosotros": "interesáis",
+        "ellos/ellas/Uds.": "interesan"
+      },
+      "perfecto": {
+        "yo": "he interesado",
+        "tú": "has interesado",
+        "él/ella/Ud.": "ha interesado",
+        "nosotros": "hemos interesado",
+        "vosotros": "habéis interesado",
+        "ellos/ellas/Uds.": "han interesado"
+      },
+      "gerundio": "interesando",
+      "progressive": {
+        "yo": "estoy interesando",
+        "tú": "estás interesando",
+        "él/ella/Ud.": "está interesando",
+        "nosotros": "estamos interesando",
+        "vosotros": "estáis interesando",
+        "ellos/ellas/Uds.": "están interesando"
+      }
+    },
+    {
+      "spanish": "ir",
+      "dutch": "gaan",
+      "conjugation": {
+        "yo": "voy",
+        "tú": "vas",
+        "él/ella/Ud.": "va",
+        "nosotros": "vamos",
+        "vosotros": "vais",
+        "ellos/ellas/Uds.": "van"
+      },
+      "perfecto": {
+        "yo": "he ido",
+        "tú": "has ido",
+        "él/ella/Ud.": "ha ido",
+        "nosotros": "hemos ido",
+        "vosotros": "habéis ido",
+        "ellos/ellas/Uds.": "han ido"
+      },
+      "gerundio": "yendo",
+      "progressive": {
+        "yo": "estoy yendo",
+        "tú": "estás yendo",
+        "él/ella/Ud.": "está yendo",
+        "nosotros": "estamos yendo",
+        "vosotros": "estáis yendo",
+        "ellos/ellas/Uds.": "están yendo"
+      }
+    },
+    {
+      "spanish": "irse",
+      "dutch": "weggaan",
+      "conjugation": {
+        "yo": "me voy",
+        "tú": "te vas",
+        "él/ella/Ud.": "se va",
+        "nosotros": "nos vamos",
+        "vosotros": "os vais",
+        "ellos/ellas/Uds.": "se van"
+      },
+      "perfecto": {
+        "yo": "me he ido",
+        "tú": "te has ido",
+        "él/ella/Ud.": "se ha ido",
+        "nosotros": "nos hemos ido",
+        "vosotros": "os habéis ido",
+        "ellos/ellas/Uds.": "se han ido"
+      },
+      "gerundio": "yendo",
+      "progressive": {
+        "yo": "me estoy yendo",
+        "tú": "te estás yendo",
+        "él/ella/Ud.": "se está yendo",
+        "nosotros": "nos estamos yendo",
+        "vosotros": "os estáis yendo",
+        "ellos/ellas/Uds.": "se están yendo"
+      }
+    },
+    {
+      "spanish": "jugar",
+      "dutch": "spelen",
+      "conjugation": {
+        "yo": "juego",
+        "tú": "juegas",
+        "él/ella/Ud.": "juega",
+        "nosotros": "jugamos",
+        "vosotros": "jugáis",
+        "ellos/ellas/Uds.": "juegan"
+      },
+      "perfecto": {
+        "yo": "he jugado",
+        "tú": "has jugado",
+        "él/ella/Ud.": "ha jugado",
+        "nosotros": "hemos jugado",
+        "vosotros": "habéis jugado",
+        "ellos/ellas/Uds.": "han jugado"
+      },
+      "gerundio": "jugando",
+      "progressive": {
+        "yo": "estoy jugando",
+        "tú": "estás jugando",
+        "él/ella/Ud.": "está jugando",
+        "nosotros": "estamos jugando",
+        "vosotros": "estáis jugando",
+        "ellos/ellas/Uds.": "están jugando"
+      }
+    },
+    {
+      "spanish": "lavarse",
+      "dutch": "(zich) wassen",
+      "conjugation": {
+        "yo": "me lavo",
+        "tú": "te lavas",
+        "él/ella/Ud.": "se lava",
+        "nosotros": "nos lavamos",
+        "vosotros": "os laváis",
+        "ellos/ellas/Uds.": "se lavan"
+      },
+      "perfecto": {
+        "yo": "me he lavado",
+        "tú": "te has lavado",
+        "él/ella/Ud.": "se ha lavado",
+        "nosotros": "nos hemos lavado",
+        "vosotros": "os habéis lavado",
+        "ellos/ellas/Uds.": "se han lavado"
+      },
+      "gerundio": "lavándose",
+      "progressive": {
+        "yo": "me estoy lavando",
+        "tú": "te estás lavando",
+        "él/ella/Ud.": "se está lavando",
+        "nosotros": "nos estamos lavando",
+        "vosotros": "os estáis lavando",
+        "ellos/ellas/Uds.": "se están lavando"
+      }
+    },
+    {
+      "spanish": "leer",
+      "dutch": "lezen",
+      "conjugation": {
+        "yo": "leo",
+        "tú": "lees",
+        "él/ella/Ud.": "lee",
+        "nosotros": "leemos",
+        "vosotros": "leéis",
+        "ellos/ellas/Uds.": "leen"
+      },
+      "perfecto": {
+        "yo": "he leído",
+        "tú": "has leído",
+        "él/ella/Ud.": "ha leído",
+        "nosotros": "hemos leído",
+        "vosotros": "habéis leído",
+        "ellos/ellas/Uds.": "han leído"
+      },
+      "gerundio": "leyendo",
+      "progressive": {
+        "yo": "estoy leyendo",
+        "tú": "estás leyendo",
+        "él/ella/Ud.": "está leyendo",
+        "nosotros": "estamos leyendo",
+        "vosotros": "estáis leyendo",
+        "ellos/ellas/Uds.": "están leyendo"
+      }
+    },
+    {
+      "spanish": "limpiar",
+      "dutch": "schoonmaken",
+      "conjugation": {
+        "yo": "limpio",
+        "tú": "limpias",
+        "él/ella/Ud.": "limpia",
+        "nosotros": "limpiamos",
+        "vosotros": "limpiáis",
+        "ellos/ellas/Uds.": "limpian"
+      },
+      "perfecto": {
+        "yo": "he limpiado",
+        "tú": "has limpiado",
+        "él/ella/Ud.": "ha limpiado",
+        "nosotros": "hemos limpiado",
+        "vosotros": "habéis limpiado",
+        "ellos/ellas/Uds.": "han limpiado"
+      },
+      "gerundio": "limpiando",
+      "progressive": {
+        "yo": "estoy limpiando",
+        "tú": "estás limpiando",
+        "él/ella/Ud.": "está limpiando",
+        "nosotros": "estamos limpiando",
+        "vosotros": "estáis limpiando",
+        "ellos/ellas/Uds.": "están limpiando"
+      }
+    },
+    {
+      "spanish": "llamarse",
+      "dutch": "heten",
+      "conjugation": {
+        "yo": "me llamo",
+        "tú": "te llamas",
+        "él/ella/Ud.": "se llama",
+        "nosotros": "nos llamamos",
+        "vosotros": "os llamáis",
+        "ellos/ellas/Uds.": "se llaman"
+      },
+      "perfecto": {
+        "yo": "me he llamado",
+        "tú": "te has llamado",
+        "él/ella/Ud.": "se ha llamado",
+        "nosotros": "nos hemos llamado",
+        "vosotros": "os habéis llamado",
+        "ellos/ellas/Uds.": "se han llamado"
+      },
+      "gerundio": "llamándose",
+      "progressive": {
+        "yo": "me estoy llamando",
+        "tú": "te estás llamando",
+        "él/ella/Ud.": "se está llamando",
+        "nosotros": "nos estamos llamando",
+        "vosotros": "os estáis llamando",
+        "ellos/ellas/Uds.": "se están llamando"
+      }
+    },
+    {
+      "spanish": "llegar",
+      "dutch": "aankomen",
+      "conjugation": {
+        "yo": "llego",
+        "tú": "llegas",
+        "él/ella/Ud.": "llega",
+        "nosotros": "llegamos",
+        "vosotros": "llegáis",
+        "ellos/ellas/Uds.": "llegan"
+      },
+      "perfecto": {
+        "yo": "he llegado",
+        "tú": "has llegado",
+        "él/ella/Ud.": "ha llegado",
+        "nosotros": "hemos llegado",
+        "vosotros": "habéis llegado",
+        "ellos/ellas/Uds.": "han llegado"
+      },
+      "gerundio": "llegando",
+      "progressive": {
+        "yo": "estoy llegando",
+        "tú": "estás llegando",
+        "él/ella/Ud.": "está llegando",
+        "nosotros": "estamos llegando",
+        "vosotros": "estáis llegando",
+        "ellos/ellas/Uds.": "están llegando"
+      }
+    },
+    {
+      "spanish": "maquillarse",
+      "dutch": "zich opmaken",
+      "conjugation": {
+        "yo": "me maquillo",
+        "tú": "te maquillas",
+        "él/ella/Ud.": "se maquilla",
+        "nosotros": "nos maquillamos",
+        "vosotros": "os maquilláis",
+        "ellos/ellas/Uds.": "se maquillan"
+      },
+      "perfecto": {
+        "yo": "me he maquillado",
+        "tú": "te has maquillado",
+        "él/ella/Ud.": "se ha maquillado",
+        "nosotros": "nos hemos maquillado",
+        "vosotros": "os habéis maquillado",
+        "ellos/ellas/Uds.": "se han maquillado"
+      },
+      "gerundio": "maquillándose",
+      "progressive": {
+        "yo": "me estoy maquillando",
+        "tú": "te estás maquillando",
+        "él/ella/Ud.": "se está maquillando",
+        "nosotros": "nos estamos maquillando",
+        "vosotros": "os estáis maquillando",
+        "ellos/ellas/Uds.": "se están maquillando"
+      }
+    },
+    {
+      "spanish": "molestar",
+      "dutch": "storen / hinderen",
+      "conjugation": {
+        "yo": "molesto",
+        "tú": "molestas",
+        "él/ella/Ud.": "molesta",
+        "nosotros": "molestamos",
+        "vosotros": "molestáis",
+        "ellos/ellas/Uds.": "molestan"
+      },
+      "perfecto": {
+        "yo": "he molestado",
+        "tú": "has molestado",
+        "él/ella/Ud.": "ha molestado",
+        "nosotros": "hemos molestado",
+        "vosotros": "habéis molestado",
+        "ellos/ellas/Uds.": "han molestado"
+      },
+      "gerundio": "molestando",
+      "progressive": {
+        "yo": "estoy molestando",
+        "tú": "estás molestando",
+        "él/ella/Ud.": "está molestando",
+        "nosotros": "estamos molestando",
+        "vosotros": "estáis molestando",
+        "ellos/ellas/Uds.": "están molestando"
+      }
+    },
+    {
+      "spanish": "morir",
+      "dutch": "sterven",
+      "conjugation": {
+        "yo": "muero",
+        "tú": "mueres",
+        "él/ella/Ud.": "muere",
+        "nosotros": "morimos",
+        "vosotros": "morís",
+        "ellos/ellas/Uds.": "mueren"
+      },
+      "perfecto": {
+        "yo": "he muerto",
+        "tú": "has muerto",
+        "él/ella/Ud.": "ha muerto",
+        "nosotros": "hemos muerto",
+        "vosotros": "habéis muerto",
+        "ellos/ellas/Uds.": "han muerto"
+      },
+      "gerundio": "muriendo",
+      "progressive": {
+        "yo": "estoy muriendo",
+        "tú": "estás muriendo",
+        "él/ella/Ud.": "está muriendo",
+        "nosotros": "estamos muriendo",
+        "vosotros": "estáis muriendo",
+        "ellos/ellas/Uds.": "están muriendo"
+      }
+    },
+    {
+      "spanish": "necesitar",
+      "dutch": "nodig hebben",
+      "conjugation": {
+        "yo": "necesito",
+        "tú": "necesitas",
+        "él/ella/Ud.": "necesita",
+        "nosotros": "necesitamos",
+        "vosotros": "necesitáis",
+        "ellos/ellas/Uds.": "necesitan"
+      },
+      "perfecto": {
+        "yo": "he necesitado",
+        "tú": "has necesitado",
+        "él/ella/Ud.": "ha necesitado",
+        "nosotros": "hemos necesitado",
+        "vosotros": "habéis necesitado",
+        "ellos/ellas/Uds.": "han necesitado"
+      },
+      "gerundio": "necesitando",
+      "progressive": {
+        "yo": "estoy necesitando",
+        "tú": "estás necesitando",
+        "él/ella/Ud.": "está necesitando",
+        "nosotros": "estamos necesitando",
+        "vosotros": "estáis necesitando",
+        "ellos/ellas/Uds.": "están necesitando"
+      }
+    },
+    {
+      "spanish": "negar",
+      "dutch": "ontkennen",
+      "conjugation": {
+        "yo": "niego",
+        "tú": "niegas",
+        "él/ella/Ud.": "niega",
+        "nosotros": "negamos",
+        "vosotros": "negáis",
+        "ellos/ellas/Uds.": "niegan"
+      },
+      "perfecto": {
+        "yo": "he negado",
+        "tú": "has negado",
+        "él/ella/Ud.": "ha negado",
+        "nosotros": "hemos negado",
+        "vosotros": "habéis negado",
+        "ellos/ellas/Uds.": "han negado"
+      },
+      "gerundio": "negando",
+      "progressive": {
+        "yo": "estoy negando",
+        "tú": "estás negando",
+        "él/ella/Ud.": "está negando",
+        "nosotros": "estamos negando",
+        "vosotros": "estáis negando",
+        "ellos/ellas/Uds.": "están negando"
+      }
+    },
+    {
+      "spanish": "organizar",
+      "dutch": "organiseren",
+      "conjugation": {
+        "yo": "organizo",
+        "tú": "organizas",
+        "él/ella/Ud.": "organiza",
+        "nosotros": "organizamos",
+        "vosotros": "organizáis",
+        "ellos/ellas/Uds.": "organizan"
+      },
+      "perfecto": {
+        "yo": "he organizado",
+        "tú": "has organizado",
+        "él/ella/Ud.": "ha organizado",
+        "nosotros": "hemos organizado",
+        "vosotros": "habéis organizado",
+        "ellos/ellas/Uds.": "han organizado"
+      },
+      "gerundio": "organizando",
+      "progressive": {
+        "yo": "estoy organizando",
+        "tú": "estás organizando",
+        "él/ella/Ud.": "está organizando",
+        "nosotros": "estamos organizando",
+        "vosotros": "estáis organizando",
+        "ellos/ellas/Uds.": "están organizando"
+      }
+    },
+    {
+      "spanish": "parecer",
+      "dutch": "lijken",
+      "conjugation": {
+        "yo": "parezco",
+        "tú": "pareces",
+        "él/ella/Ud.": "parece",
+        "nosotros": "parecemos",
+        "vosotros": "parecéis",
+        "ellos/ellas/Uds.": "parecen"
+      },
+      "perfecto": {
+        "yo": "he parecido",
+        "tú": "has parecido",
+        "él/ella/Ud.": "ha parecido",
+        "nosotros": "hemos parecido",
+        "vosotros": "habéis parecido",
+        "ellos/ellas/Uds.": "han parecido"
+      },
+      "gerundio": "pareciendo",
+      "progressive": {
+        "yo": "estoy pareciendo",
+        "tú": "estás pareciendo",
+        "él/ella/Ud.": "está pareciendo",
+        "nosotros": "estamos pareciendo",
+        "vosotros": "estáis pareciendo",
+        "ellos/ellas/Uds.": "están pareciendo"
+      }
+    },
+    {
+      "spanish": "pasear",
+      "dutch": "wandelen",
+      "conjugation": {
+        "yo": "paseo",
+        "tú": "paseas",
+        "él/ella/Ud.": "pasea",
+        "nosotros": "paseamos",
+        "vosotros": "paseáis",
+        "ellos/ellas/Uds.": "pasean"
+      },
+      "perfecto": {
+        "yo": "he paseado",
+        "tú": "has paseado",
+        "él/ella/Ud.": "ha paseado",
+        "nosotros": "hemos paseado",
+        "vosotros": "habéis paseado",
+        "ellos/ellas/Uds.": "han paseado"
+      },
+      "gerundio": "paseando",
+      "progressive": {
+        "yo": "estoy paseando",
+        "tú": "estás paseando",
+        "él/ella/Ud.": "está paseando",
+        "nosotros": "estamos paseando",
+        "vosotros": "estáis paseando",
+        "ellos/ellas/Uds.": "están paseando"
+      }
+    },
+    {
+      "spanish": "pedir",
+      "dutch": "vragen om",
+      "conjugation": {
+        "yo": "pido",
+        "tú": "pides",
+        "él/ella/Ud.": "pide",
+        "nosotros": "pedimos",
+        "vosotros": "pedís",
+        "ellos/ellas/Uds.": "piden"
+      },
+      "perfecto": {
+        "yo": "he pedido",
+        "tú": "has pedido",
+        "él/ella/Ud.": "ha pedido",
+        "nosotros": "hemos pedido",
+        "vosotros": "habéis pedido",
+        "ellos/ellas/Uds.": "han pedido"
+      },
+      "gerundio": "pidiendo",
+      "progressive": {
+        "yo": "estoy pidiendo",
+        "tú": "estás pidiendo",
+        "él/ella/Ud.": "está pidiendo",
+        "nosotros": "estamos pidiendo",
+        "vosotros": "estáis pidiendo",
+        "ellos/ellas/Uds.": "están pidiendo"
+      }
+    },
+    {
+      "spanish": "pensar",
+      "dutch": "denken",
+      "conjugation": {
+        "yo": "pienso",
+        "tú": "piensas",
+        "él/ella/Ud.": "piensa",
+        "nosotros": "pensamos",
+        "vosotros": "pensáis",
+        "ellos/ellas/Uds.": "piensan"
+      },
+      "perfecto": {
+        "yo": "he pensado",
+        "tú": "has pensado",
+        "él/ella/Ud.": "ha pensado",
+        "nosotros": "hemos pensado",
+        "vosotros": "habéis pensado",
+        "ellos/ellas/Uds.": "han pensado"
+      },
+      "gerundio": "pensando",
+      "progressive": {
+        "yo": "estoy pensando",
+        "tú": "estás pensando",
+        "él/ella/Ud.": "está pensando",
+        "nosotros": "estamos pensando",
+        "vosotros": "estáis pensando",
+        "ellos/ellas/Uds.": "están pensando"
+      }
+    },
+    {
+      "spanish": "pescar",
+      "dutch": "vissen",
+      "conjugation": {
+        "yo": "pesco",
+        "tú": "pescas",
+        "él/ella/Ud.": "pesca",
+        "nosotros": "pescamos",
+        "vosotros": "pescáis",
+        "ellos/ellas/Uds.": "pescan"
+      },
+      "perfecto": {
+        "yo": "he pescado",
+        "tú": "has pescado",
+        "él/ella/Ud.": "ha pescado",
+        "nosotros": "hemos pescado",
+        "vosotros": "habéis pescado",
+        "ellos/ellas/Uds.": "han pescado"
+      },
+      "gerundio": "pescando",
+      "progressive": {
+        "yo": "estoy pescando",
+        "tú": "estás pescando",
+        "él/ella/Ud.": "está pescando",
+        "nosotros": "estamos pescando",
+        "vosotros": "estáis pescando",
+        "ellos/ellas/Uds.": "están pescando"
+      }
+    },
+    {
+      "spanish": "pintar",
+      "dutch": "schilderen",
+      "conjugation": {
+        "yo": "pinto",
+        "tú": "pintas",
+        "él/ella/Ud.": "pinta",
+        "nosotros": "pintamos",
+        "vosotros": "pintáis",
+        "ellos/ellas/Uds.": "pintan"
+      },
+      "perfecto": {
+        "yo": "he pintado",
+        "tú": "has pintado",
+        "él/ella/Ud.": "ha pintado",
+        "nosotros": "hemos pintado",
+        "vosotros": "habéis pintado",
+        "ellos/ellas/Uds.": "han pintado"
+      },
+      "gerundio": "pintando",
+      "progressive": {
+        "yo": "estoy pintando",
+        "tú": "estás pintando",
+        "él/ella/Ud.": "está pintando",
+        "nosotros": "estamos pintando",
+        "vosotros": "estáis pintando",
+        "ellos/ellas/Uds.": "están pintando"
+      }
+    },
+    {
+      "spanish": "poder",
+      "dutch": "kunnen",
+      "conjugation": {
+        "yo": "puedo",
+        "tú": "puedes",
+        "él/ella/Ud.": "puede",
+        "nosotros": "podemos",
+        "vosotros": "podéis",
+        "ellos/ellas/Uds.": "pueden"
+      },
+      "perfecto": {
+        "yo": "he podido",
+        "tú": "has podido",
+        "él/ella/Ud.": "ha podido",
+        "nosotros": "hemos podido",
+        "vosotros": "habéis podido",
+        "ellos/ellas/Uds.": "han podido"
+      },
+      "gerundio": "pudiendo",
+      "progressive": {
+        "yo": "estoy pudiendo",
+        "tú": "estás pudiendo",
+        "él/ella/Ud.": "está pudiendo",
+        "nosotros": "estamos pudiendo",
+        "vosotros": "estáis pudiendo",
+        "ellos/ellas/Uds.": "están pudiendo"
+      }
+    },
+    {
+      "spanish": "poner",
+      "dutch": "neerleggen",
+      "conjugation": {
+        "yo": "pongo",
+        "tú": "pones",
+        "él/ella/Ud.": "pone",
+        "nosotros": "ponemos",
+        "vosotros": "ponéis",
+        "ellos/ellas/Uds.": "ponen"
+      },
+      "perfecto": {
+        "yo": "he puesto",
+        "tú": "has puesto",
+        "él/ella/Ud.": "ha puesto",
+        "nosotros": "hemos puesto",
+        "vosotros": "habéis puesto",
+        "ellos/ellas/Uds.": "han puesto"
+      },
+      "gerundio": "poniendo",
+      "progressive": {
+        "yo": "estoy poniendo",
+        "tú": "estás poniendo",
+        "él/ella/Ud.": "está poniendo",
+        "nosotros": "estamos poniendo",
+        "vosotros": "estáis poniendo",
+        "ellos/ellas/Uds.": "están poniendo"
+      }
+    },
+    {
+      "spanish": "preferir",
+      "dutch": "de voorkeur geven",
+      "conjugation": {
+        "yo": "prefiero",
+        "tú": "prefieres",
+        "él/ella/Ud.": "prefiere",
+        "nosotros": "preferimos",
+        "vosotros": "preferís",
+        "ellos/ellas/Uds.": "prefieren"
+      },
+      "perfecto": {
+        "yo": "he preferido",
+        "tú": "has preferido",
+        "él/ella/Ud.": "ha preferido",
+        "nosotros": "hemos preferido",
+        "vosotros": "habéis preferido",
+        "ellos/ellas/Uds.": "han preferido"
+      },
+      "gerundio": "prefiriendo",
+      "progressive": {
+        "yo": "estoy prefiriendo",
+        "tú": "estás prefiriendo",
+        "él/ella/Ud.": "está prefiriendo",
+        "nosotros": "estamos prefiriendo",
+        "vosotros": "estáis prefiriendo",
+        "ellos/ellas/Uds.": "están prefiriendo"
+      }
+    },
+    {
+      "spanish": "preocuparse",
+      "dutch": "zich zorgen maken",
+      "conjugation": {
+        "yo": "me preocupo",
+        "tú": "te preocupas",
+        "él/ella/Ud.": "se preocupa",
+        "nosotros": "nos preocupamos",
+        "vosotros": "os preocupáis",
+        "ellos/ellas/Uds.": "se preocupan"
+      },
+      "perfecto": {
+        "yo": "me he preocupado",
+        "tú": "te has preocupado",
+        "él/ella/Ud.": "se ha preocupado",
+        "nosotros": "nos hemos preocupado",
+        "vosotros": "os habéis preocupado",
+        "ellos/ellas/Uds.": "se han preocupado"
+      },
+      "gerundio": "preocupándose",
+      "progressive": {
+        "yo": "me estoy preocupando",
+        "tú": "te estás preocupando",
+        "él/ella/Ud.": "se está preocupando",
+        "nosotros": "nos estamos preocupando",
+        "vosotros": "os estáis preocupando",
+        "ellos/ellas/Uds.": "se están preocupando"
+      }
+    },
+    {
+      "spanish": "preparar",
+      "dutch": "voorbereiden",
+      "conjugation": {
+        "yo": "preparo",
+        "tú": "preparas",
+        "él/ella/Ud.": "prepara",
+        "nosotros": "preparamos",
+        "vosotros": "preparáis",
+        "ellos/ellas/Uds.": "preparan"
+      },
+      "perfecto": {
+        "yo": "he preparado",
+        "tú": "has preparado",
+        "él/ella/Ud.": "ha preparado",
+        "nosotros": "hemos preparado",
+        "vosotros": "habéis preparado",
+        "ellos/ellas/Uds.": "han preparado"
+      },
+      "gerundio": "preparando",
+      "progressive": {
+        "yo": "estoy preparando",
+        "tú": "estás preparando",
+        "él/ella/Ud.": "está preparando",
+        "nosotros": "estamos preparando",
+        "vosotros": "estáis preparando",
+        "ellos/ellas/Uds.": "están preparando"
+      }
+    },
+    {
+      "spanish": "quedar",
+      "dutch": "afspreken / resteren",
+      "conjugation": {
+        "yo": "quedo",
+        "tú": "quedas",
+        "él/ella/Ud.": "queda",
+        "nosotros": "quedamos",
+        "vosotros": "quedáis",
+        "ellos/ellas/Uds.": "quedan"
+      },
+      "perfecto": {
+        "yo": "he quedado",
+        "tú": "has quedado",
+        "él/ella/Ud.": "ha quedado",
+        "nosotros": "hemos quedado",
+        "vosotros": "habéis quedado",
+        "ellos/ellas/Uds.": "han quedado"
+      },
+      "gerundio": "quedando",
+      "progressive": {
+        "yo": "estoy quedando",
+        "tú": "estás quedando",
+        "él/ella/Ud.": "está quedando",
+        "nosotros": "estamos quedando",
+        "vosotros": "estáis quedando",
+        "ellos/ellas/Uds.": "están quedando"
+      }
+    },
+    {
+      "spanish": "quedar bien/mal",
+      "dutch": "goed/slecht passen",
+      "conjugation": {
+        "yo": "me queda bien/mal",
+        "tú": "te queda bien/mal",
+        "él/ella/Ud.": "se queda bien/mal",
+        "nosotros": "nos queda bien/mal",
+        "vosotros": "os queda bien/mal",
+        "ellos/ellas/Uds.": "se quedan bien/mal"
+      },
+      "perfecto": {
+        "yo": "he quedado",
+        "tú": "has quedado",
+        "él/ella/Ud.": "ha quedado",
+        "nosotros": "hemos quedado",
+        "vosotros": "habéis quedado",
+        "ellos/ellas/Uds.": "han quedado"
+      },
+      "gerundio": "quedando",
+      "progressive": {
+        "yo": "estoy quedando",
+        "tú": "estás quedando",
+        "él/ella/Ud.": "está quedando",
+        "nosotros": "estamos quedando",
+        "vosotros": "estáis quedando",
+        "ellos/ellas/Uds.": "están quedando"
+      }
+    },
+    {
+      "spanish": "quedarse",
+      "dutch": "blijven",
+      "conjugation": {
+        "yo": "me quedo",
+        "tú": "te quedas",
+        "él/ella/Ud.": "se queda",
+        "nosotros": "nos quedamos",
+        "vosotros": "os quedáis",
+        "ellos/ellas/Uds.": "se quedan"
+      },
+      "perfecto": {
+        "yo": "me he quedado",
+        "tú": "te has quedado",
+        "él/ella/Ud.": "se ha quedado",
+        "nosotros": "nos hemos quedado",
+        "vosotros": "os habéis quedado",
+        "ellos/ellas/Uds.": "se han quedado"
+      },
+      "gerundio": "quedándose",
+      "progressive": {
+        "yo": "me estoy quedando",
+        "tú": "te estás quedando",
+        "él/ella/Ud.": "se está quedando",
+        "nosotros": "nos estamos quedando",
+        "vosotros": "os estáis quedando",
+        "ellos/ellas/Uds.": "se están quedando"
+      }
+    },
+    {
+      "spanish": "querer",
+      "dutch": "willen / houden van",
+      "conjugation": {
+        "yo": "quiero",
+        "tú": "quieres",
+        "él/ella/Ud.": "quiere",
+        "nosotros": "queremos",
+        "vosotros": "queréis",
+        "ellos/ellas/Uds.": "quieren"
+      },
+      "perfecto": {
+        "yo": "he querido",
+        "tú": "has querido",
+        "él/ella/Ud.": "ha querido",
+        "nosotros": "hemos querido",
+        "vosotros": "habéis querido",
+        "ellos/ellas/Uds.": "han querido"
+      },
+      "gerundio": "queriendo",
+      "progressive": {
+        "yo": "estoy queriendo",
+        "tú": "estás queriendo",
+        "él/ella/Ud.": "está queriendo",
+        "nosotros": "estamos queriendo",
+        "vosotros": "estáis queriendo",
+        "ellos/ellas/Uds.": "están queriendo"
+      }
+    },
+    {
+      "spanish": "relacionar",
+      "dutch": "verbinden",
+      "conjugation": {
+        "yo": "relaciono",
+        "tú": "relacionas",
+        "él/ella/Ud.": "relaciona",
+        "nosotros": "relacionamos",
+        "vosotros": "relacionáis",
+        "ellos/ellas/Uds.": "relacionan"
+      },
+      "perfecto": {
+        "yo": "he relacionado",
+        "tú": "has relacionado",
+        "él/ella/Ud.": "ha relacionado",
+        "nosotros": "hemos relacionado",
+        "vosotros": "habéis relacionado",
+        "ellos/ellas/Uds.": "han relacionado"
+      },
+      "gerundio": "relacionando",
+      "progressive": {
+        "yo": "estoy relacionando",
+        "tú": "estás relacionando",
+        "él/ella/Ud.": "está relacionando",
+        "nosotros": "estamos relacionando",
+        "vosotros": "estáis relacionando",
+        "ellos/ellas/Uds.": "están relacionando"
+      }
+    },
+    {
+      "spanish": "recibir",
+      "dutch": "krijgen",
+      "conjugation": {
+        "yo": "recibo",
+        "tú": "recibes",
+        "él/ella/Ud.": "recibe",
+        "nosotros": "recibimos",
+        "vosotros": "recibís",
+        "ellos/ellas/Uds.": "reciben"
+      },
+      "perfecto": {
+        "yo": "he recibido",
+        "tú": "has recibido",
+        "él/ella/Ud.": "ha recibido",
+        "nosotros": "hemos recibido",
+        "vosotros": "habéis recibido",
+        "ellos/ellas/Uds.": "han recibido"
+      },
+      "gerundio": "recibiendo",
+      "progressive": {
+        "yo": "estoy recibiendo",
+        "tú": "estás recibiendo",
+        "él/ella/Ud.": "está recibiendo",
+        "nosotros": "estamos recibiendo",
+        "vosotros": "estáis recibiendo",
+        "ellos/ellas/Uds.": "están recibiendo"
+      }
+    },
+    {
+      "spanish": "repetir",
+      "dutch": "herhalen",
+      "conjugation": {
+        "yo": "repito",
+        "tú": "repites",
+        "él/ella/Ud.": "repite",
+        "nosotros": "repetimos",
+        "vosotros": "repetís",
+        "ellos/ellas/Uds.": "repiten"
+      },
+      "perfecto": {
+        "yo": "he repetido",
+        "tú": "has repetido",
+        "él/ella/Ud.": "ha repetido",
+        "nosotros": "hemos repetido",
+        "vosotros": "habéis repetido",
+        "ellos/ellas/Uds.": "han repetido"
+      },
+      "gerundio": "repitiendo",
+      "progressive": {
+        "yo": "estoy repitiendo",
+        "tú": "estás repitiendo",
+        "él/ella/Ud.": "está repitiendo",
+        "nosotros": "estamos repitiendo",
+        "vosotros": "estáis repitiendo",
+        "ellos/ellas/Uds.": "están repitiendo"
+      }
+    },
+    {
+      "spanish": "reservar",
+      "dutch": "reserveren",
+      "conjugation": {
+        "yo": "reservo",
+        "tú": "reservas",
+        "él/ella/Ud.": "reserva",
+        "nosotros": "reservamos",
+        "vosotros": "reserváis",
+        "ellos/ellas/Uds.": "reservan"
+      },
+      "perfecto": {
+        "yo": "he reservado",
+        "tú": "has reservado",
+        "él/ella/Ud.": "ha reservado",
+        "nosotros": "hemos reservado",
+        "vosotros": "habéis reservado",
+        "ellos/ellas/Uds.": "han reservado"
+      },
+      "gerundio": "reservando",
+      "progressive": {
+        "yo": "estoy reservando",
+        "tú": "estás reservando",
+        "él/ella/Ud.": "está reservando",
+        "nosotros": "estamos reservando",
+        "vosotros": "estáis reservando",
+        "ellos/ellas/Uds.": "están reservando"
+      }
+    },
+    {
+      "spanish": "romper",
+      "dutch": "kapotmaken",
+      "conjugation": {
+        "yo": "rompo",
+        "tú": "rompes",
+        "él/ella/Ud.": "rompe",
+        "nosotros": "rompemos",
+        "vosotros": "rompéis",
+        "ellos/ellas/Uds.": "rompen"
+      },
+      "perfecto": {
+        "yo": "he roto",
+        "tú": "has roto",
+        "él/ella/Ud.": "ha roto",
+        "nosotros": "hemos roto",
+        "vosotros": "habéis roto",
+        "ellos/ellas/Uds.": "han roto"
+      },
+      "gerundio": "rompiendo",
+      "progressive": {
+        "yo": "estoy rompiendo",
+        "tú": "estás rompiendo",
+        "él/ella/Ud.": "está rompiendo",
+        "nosotros": "estamos rompiendo",
+        "vosotros": "estáis rompiendo",
+        "ellos/ellas/Uds.": "están rompiendo"
+      }
+    },
+    {
+      "spanish": "saber",
+      "dutch": "weten",
+      "conjugation": {
+        "yo": "sé",
+        "tú": "sabes",
+        "él/ella/Ud.": "sabe",
+        "nosotros": "sabemos",
+        "vosotros": "sabéis",
+        "ellos/ellas/Uds.": "saben"
+      },
+      "perfecto": {
+        "yo": "he sabido",
+        "tú": "has sabido",
+        "él/ella/Ud.": "ha sabido",
+        "nosotros": "hemos sabido",
+        "vosotros": "habéis sabido",
+        "ellos/ellas/Uds.": "han sabido"
+      },
+      "gerundio": "sabiendo",
+      "progressive": {
+        "yo": "estoy sabiendo",
+        "tú": "estás sabiendo",
+        "él/ella/Ud.": "está sabiendo",
+        "nosotros": "estamos sabiendo",
+        "vosotros": "estáis sabiendo",
+        "ellos/ellas/Uds.": "están sabiendo"
+      }
+    },
+    {
+      "spanish": "seguir",
+      "dutch": "vervolgen / doorgaan",
+      "conjugation": {
+        "yo": "sigo",
+        "tú": "sigues",
+        "él/ella/Ud.": "sigue",
+        "nosotros": "seguimos",
+        "vosotros": "seguís",
+        "ellos/ellas/Uds.": "siguen"
+      },
+      "perfecto": {
+        "yo": "he seguido",
+        "tú": "has seguido",
+        "él/ella/Ud.": "ha seguido",
+        "nosotros": "hemos seguido",
+        "vosotros": "habéis seguido",
+        "ellos/ellas/Uds.": "han seguido"
+      },
+      "gerundio": "siguiendo",
+      "progressive": {
+        "yo": "estoy siguiendo",
+        "tú": "estás siguiendo",
+        "él/ella/Ud.": "está siguiendo",
+        "nosotros": "estamos siguiendo",
+        "vosotros": "estáis siguiendo",
+        "ellos/ellas/Uds.": "están siguiendo"
+      }
+    },
+    {
+      "spanish": "sentir",
+      "dutch": "voelen",
+      "conjugation": {
+        "yo": "siento",
+        "tú": "sientes",
+        "él/ella/Ud.": "siente",
+        "nosotros": "sentimos",
+        "vosotros": "sentís",
+        "ellos/ellas/Uds.": "sienten"
+      },
+      "perfecto": {
+        "yo": "he sentido",
+        "tú": "has sentido",
+        "él/ella/Ud.": "ha sentido",
+        "nosotros": "hemos sentido",
+        "vosotros": "habéis sentido",
+        "ellos/ellas/Uds.": "han sentido"
+      },
+      "gerundio": "sintiendo",
+      "progressive": {
+        "yo": "estoy sintiendo",
+        "tú": "estás sintiendo",
+        "él/ella/Ud.": "está sintiendo",
+        "nosotros": "estamos sintiendo",
+        "vosotros": "estáis sintiendo",
+        "ellos/ellas/Uds.": "están sintiendo"
+      }
+    },
+    {
+      "spanish": "ser",
+      "dutch": "zijn",
+      "conjugation": {
+        "yo": "soy",
+        "tú": "eres",
+        "él/ella/Ud.": "es",
+        "nosotros": "somos",
+        "vosotros": "sois",
+        "ellos/ellas/Uds.": "son"
+      },
+      "perfecto": {
+        "yo": "he sido",
+        "tú": "has sido",
+        "él/ella/Ud.": "ha sido",
+        "nosotros": "hemos sido",
+        "vosotros": "habéis sido",
+        "ellos/ellas/Uds.": "han sido"
+      },
+      "gerundio": "siendo",
+      "progressive": {
+        "yo": "estoy siendo",
+        "tú": "estás siendo",
+        "él/ella/Ud.": "está siendo",
+        "nosotros": "estamos siendo",
+        "vosotros": "estáis siendo",
+        "ellos/ellas/Uds.": "están siendo"
+      }
+    },
+    {
+      "spanish": "significar",
+      "dutch": "betekenen",
+      "conjugation": {
+        "yo": "significo",
+        "tú": "significas",
+        "él/ella/Ud.": "significa",
+        "nosotros": "significamos",
+        "vosotros": "significáis",
+        "ellos/ellas/Uds.": "significan"
+      },
+      "perfecto": {
+        "yo": "he significado",
+        "tú": "has significado",
+        "él/ella/Ud.": "ha significado",
+        "nosotros": "hemos significado",
+        "vosotros": "habéis significado",
+        "ellos/ellas/Uds.": "han significado"
+      },
+      "gerundio": "significando",
+      "progressive": {
+        "yo": "estoy significando",
+        "tú": "estás significando",
+        "él/ella/Ud.": "está significando",
+        "nosotros": "estamos significando",
+        "vosotros": "estáis significando",
+        "ellos/ellas/Uds.": "están significando"
+      }
+    },
+    {
+      "spanish": "tener",
+      "dutch": "hebben",
+      "conjugation": {
+        "yo": "tengo",
+        "tú": "tienes",
+        "él/ella/Ud.": "tiene",
+        "nosotros": "tenemos",
+        "vosotros": "tenéis",
+        "ellos/ellas/Uds.": "tienen"
+      },
+      "perfecto": {
+        "yo": "he tenido",
+        "tú": "has tenido",
+        "él/ella/Ud.": "ha tenido",
+        "nosotros": "hemos tenido",
+        "vosotros": "habéis tenido",
+        "ellos/ellas/Uds.": "han tenido"
+      },
+      "gerundio": "teniendo",
+      "progressive": {
+        "yo": "estoy teniendo",
+        "tú": "estás teniendo",
+        "él/ella/Ud.": "está teniendo",
+        "nosotros": "estamos teniendo",
+        "vosotros": "estáis teniendo",
+        "ellos/ellas/Uds.": "están teniendo"
+      }
+    },
+    {
+      "spanish": "terminar",
+      "dutch": "eindigen (met)",
+      "conjugation": {
+        "yo": "termino",
+        "tú": "terminas",
+        "él/ella/Ud.": "termina",
+        "nosotros": "terminamos",
+        "vosotros": "termináis",
+        "ellos/ellas/Uds.": "terminan"
+      },
+      "perfecto": {
+        "yo": "he terminado",
+        "tú": "has terminado",
+        "él/ella/Ud.": "ha terminado",
+        "nosotros": "hemos terminado",
+        "vosotros": "habéis terminado",
+        "ellos/ellas/Uds.": "han terminado"
+      },
+      "gerundio": "terminando",
+      "progressive": {
+        "yo": "estoy terminando",
+        "tú": "estás terminando",
+        "él/ella/Ud.": "está terminando",
+        "nosotros": "estamos terminando",
+        "vosotros": "estáis terminando",
+        "ellos/ellas/Uds.": "están terminando"
+      }
+    },
+    {
+      "spanish": "tomar",
+      "dutch": "nemen",
+      "conjugation": {
+        "yo": "tomo",
+        "tú": "tomas",
+        "él/ella/Ud.": "toma",
+        "nosotros": "tomamos",
+        "vosotros": "tomáis",
+        "ellos/ellas/Uds.": "toman"
+      },
+      "perfecto": {
+        "yo": "he tomado",
+        "tú": "has tomado",
+        "él/ella/Ud.": "ha tomado",
+        "nosotros": "hemos tomado",
+        "vosotros": "habéis tomado",
+        "ellos/ellas/Uds.": "han tomado"
+      },
+      "gerundio": "tomando",
+      "progressive": {
+        "yo": "estoy tomando",
+        "tú": "estás tomando",
+        "él/ella/Ud.": "está tomando",
+        "nosotros": "estamos tomando",
+        "vosotros": "estáis tomando",
+        "ellos/ellas/Uds.": "están tomando"
+      }
+    },
+    {
+      "spanish": "trabajar",
+      "dutch": "werken",
+      "conjugation": {
+        "yo": "trabajo",
+        "tú": "trabajas",
+        "él/ella/Ud.": "trabaja",
+        "nosotros": "trabajamos",
+        "vosotros": "trabajáis",
+        "ellos/ellas/Uds.": "trabajan"
+      },
+      "perfecto": {
+        "yo": "he trabajado",
+        "tú": "has trabajado",
+        "él/ella/Ud.": "ha trabajado",
+        "nosotros": "hemos trabajado",
+        "vosotros": "habéis trabajado",
+        "ellos/ellas/Uds.": "han trabajado"
+      },
+      "gerundio": "trabajando",
+      "progressive": {
+        "yo": "estoy trabajando",
+        "tú": "estás trabajando",
+        "él/ella/Ud.": "está trabajando",
+        "nosotros": "estamos trabajando",
+        "vosotros": "estáis trabajando",
+        "ellos/ellas/Uds.": "están trabajando"
+      }
+    },
+    {
+      "spanish": "traer",
+      "dutch": "brengen",
+      "conjugation": {
+        "yo": "traigo",
+        "tú": "traes",
+        "él/ella/Ud.": "trae",
+        "nosotros": "traemos",
+        "vosotros": "traéis",
+        "ellos/ellas/Uds.": "traen"
+      },
+      "perfecto": {
+        "yo": "he traído",
+        "tú": "has traído",
+        "él/ella/Ud.": "ha traído",
+        "nosotros": "hemos traído",
+        "vosotros": "habéis traído",
+        "ellos/ellas/Uds.": "han traído"
+      },
+      "gerundio": "trayendo",
+      "progressive": {
+        "yo": "estoy trayendo",
+        "tú": "estás trayendo",
+        "él/ella/Ud.": "está trayendo",
+        "nosotros": "estamos trayendo",
+        "vosotros": "estáis trayendo",
+        "ellos/ellas/Uds.": "están trayendo"
+      }
+    },
+    {
+      "spanish": "vender",
+      "dutch": "verkopen",
+      "conjugation": {
+        "yo": "vendo",
+        "tú": "vendes",
+        "él/ella/Ud.": "vende",
+        "nosotros": "vendemos",
+        "vosotros": "vendéis",
+        "ellos/ellas/Uds.": "venden"
+      },
+      "perfecto": {
+        "yo": "he vendido",
+        "tú": "has vendido",
+        "él/ella/Ud.": "ha vendido",
+        "nosotros": "hemos vendido",
+        "vosotros": "habéis vendido",
+        "ellos/ellas/Uds.": "han vendido"
+      },
+      "gerundio": "vendiendo",
+      "progressive": {
+        "yo": "estoy vendiendo",
+        "tú": "estás vendiendo",
+        "él/ella/Ud.": "está vendiendo",
+        "nosotros": "estamos vendiendo",
+        "vosotros": "estáis vendiendo",
+        "ellos/ellas/Uds.": "están vendiendo"
+      }
+    },
+    {
+      "spanish": "venir",
+      "dutch": "komen",
+      "conjugation": {
+        "yo": "vengo",
+        "tú": "vienes",
+        "él/ella/Ud.": "viene",
+        "nosotros": "venimos",
+        "vosotros": "venís",
+        "ellos/ellas/Uds.": "vienen"
+      },
+      "perfecto": {
+        "yo": "he venido",
+        "tú": "has venido",
+        "él/ella/Ud.": "ha venido",
+        "nosotros": "hemos venido",
+        "vosotros": "habéis venido",
+        "ellos/ellas/Uds.": "han venido"
+      },
+      "gerundio": "viniendo",
+      "progressive": {
+        "yo": "estoy viniendo",
+        "tú": "estás viniendo",
+        "él/ella/Ud.": "está viniendo",
+        "nosotros": "estamos viniendo",
+        "vosotros": "estáis viniendo",
+        "ellos/ellas/Uds.": "están viniendo"
+      }
+    },
+    {
+      "spanish": "ver",
+      "dutch": "zien",
+      "conjugation": {
+        "yo": "veo",
+        "tú": "ves",
+        "él/ella/Ud.": "ve",
+        "nosotros": "vemos",
+        "vosotros": "veis",
+        "ellos/ellas/Uds.": "ven"
+      },
+      "perfecto": {
+        "yo": "he visto",
+        "tú": "has visto",
+        "él/ella/Ud.": "ha visto",
+        "nosotros": "hemos visto",
+        "vosotros": "habéis visto",
+        "ellos/ellas/Uds.": "han visto"
+      },
+      "gerundio": "viendo",
+      "progressive": {
+        "yo": "estoy viendo",
+        "tú": "estás viendo",
+        "él/ella/Ud.": "está viendo",
+        "nosotros": "estamos viendo",
+        "vosotros": "estáis viendo",
+        "ellos/ellas/Uds.": "están viendo"
+      }
+    },
+    {
+      "spanish": "vestirse",
+      "dutch": "zich aankleden",
+      "conjugation": {
+        "yo": "me visto",
+        "tú": "te vistes",
+        "él/ella/Ud.": "se viste",
+        "nosotros": "nos vestimos",
+        "vosotros": "os vestís",
+        "ellos/ellas/Uds.": "se visten"
+      },
+      "perfecto": {
+        "yo": "me he vestido",
+        "tú": "te has vestido",
+        "él/ella/Ud.": "se ha vestido",
+        "nosotros": "nos hemos vestido",
+        "vosotros": "os habéis vestido",
+        "ellos/ellas/Uds.": "se han vestido"
+      },
+      "gerundio": "vistiendo",
+      "progressive": {
+        "yo": "me estoy vistiendo",
+        "tú": "te estás vistiendo",
+        "él/ella/Ud.": "se está vistiendo",
+        "nosotros": "nos estamos vistiendo",
+        "vosotros": "os estáis vistiendo",
+        "ellos/ellas/Uds.": "se están vistiendo"
+      }
+    },
+    {
+      "spanish": "viajar",
+      "dutch": "reizen",
+      "conjugation": {
+        "yo": "viajo",
+        "tú": "viajas",
+        "él/ella/Ud.": "viaja",
+        "nosotros": "viajamos",
+        "vosotros": "viajáis",
+        "ellos/ellas/Uds.": "viajan"
+      },
+      "perfecto": {
+        "yo": "he viajado",
+        "tú": "has viajado",
+        "él/ella/Ud.": "ha viajado",
+        "nosotros": "hemos viajado",
+        "vosotros": "habéis viajado",
+        "ellos/ellas/Uds.": "han viajado"
+      },
+      "gerundio": "viajando",
+      "progressive": {
+        "yo": "estoy viajando",
+        "tú": "estás viajando",
+        "él/ella/Ud.": "está viajando",
+        "nosotros": "estamos viajando",
+        "vosotros": "estáis viajando",
+        "ellos/ellas/Uds.": "están viajando"
+      }
+    },
+    {
+      "spanish": "vivir",
+      "dutch": "leven / wonen",
+      "conjugation": {
+        "yo": "vivo",
+        "tú": "vives",
+        "él/ella/Ud.": "vive",
+        "nosotros": "vivimos",
+        "vosotros": "vivís",
+        "ellos/ellas/Uds.": "viven"
+      },
+      "perfecto": {
+        "yo": "he vivido",
+        "tú": "has vivido",
+        "él/ella/Ud.": "ha vivido",
+        "nosotros": "hemos vivido",
+        "vosotros": "habéis vivido",
+        "ellos/ellas/Uds.": "han vivido"
+      },
+      "gerundio": "viviendo",
+      "progressive": {
+        "yo": "estoy viviendo",
+        "tú": "estás viviendo",
+        "él/ella/Ud.": "está viviendo",
+        "nosotros": "estamos viviendo",
+        "vosotros": "estáis viviendo",
+        "ellos/ellas/Uds.": "están viviendo"
+      }
+    },
+    {
+      "spanish": "volver",
+      "dutch": "teruggaan",
+      "conjugation": {
+        "yo": "vuelvo",
+        "tú": "vuelves",
+        "él/ella/Ud.": "vuelve",
+        "nosotros": "volvemos",
+        "vosotros": "volvéis",
+        "ellos/ellas/Uds.": "vuelven"
+      },
+      "perfecto": {
+        "yo": "he vuelto",
+        "tú": "has vuelto",
+        "él/ella/Ud.": "ha vuelto",
+        "nosotros": "hemos vuelto",
+        "vosotros": "habéis vuelto",
+        "ellos/ellas/Uds.": "han vuelto"
+      },
+      "gerundio": "volviendo",
+      "progressive": {
+        "yo": "estoy volviendo",
+        "tú": "estás volviendo",
+        "él/ella/Ud.": "está volviendo",
+        "nosotros": "estamos volviendo",
+        "vosotros": "estáis volviendo",
+        "ellos/ellas/Uds.": "están volviendo"
+      }
+    }
+  ]
+}
