@@ -16,6 +16,11 @@
     }
   </style>
 </head>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(console.error);
+  }
+</script>
 <body>
   <h1>Spaanse Trainer</h1>
 
