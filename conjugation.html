@@ -2,104 +2,112 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vervoegingen oefenen</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    .controls { display: flex; gap: 40px; margin-top: 20px; }
-    .controls div { margin-bottom: 16px; }
-    label { font-weight: bold; display: block; margin-top: 8px; }
-    .feedback { margin-top: 12px; font-weight: bold; }
-    .error { color: red; }
-    #answer { width: 300px; }
+    body { font-family: Arial, sans-serif; margin: 0; padding:20px; max-width:480px; margin:auto; }
+    h1 { text-align:center; font-size:1.5em; margin-bottom:10px; }
+    .controls { display:grid; grid-template-columns:1fr; gap:12px; margin-bottom:16px; }
+    fieldset { border:1px solid #ccc; border-radius:8px; padding:8px; }
+    legend { font-weight:bold; }
+    label { display:block; margin:4px 0; font-size:0.9em; }
+    #feature-controls label { display:inline-block; margin:4px 6px 0 0; font-size:0.9em; }
+    #btn-next, #btn-check { width:100%; padding:12px; font-size:1em; margin-top:8px; border:none; border-radius:6px; background:#007bff; color:#fff; }
+    #btn-next:active, #btn-check:active { background:#0056b3; }
+    #question { font-size:1.1em; margin:16px 0 8px; }
+    #answer { width:100%; padding:10px; font-size:1em; box-sizing:border-box; border:1px solid #ccc; border-radius:6px; }
+    .feedback { font-weight:bold; min-height:1.2em; margin-top:8px; }
+    .error { color:#d9534f; }
+    .correct { color:#5cb85c; }
+    .stats { text-align:center; margin-top:16px; font-size:0.9em; }
+    @media (prefers-color-scheme: dark) {
+      body { background:#121212; color:#e0e0e0; }
+      fieldset { border-color:#444; }
+      #answer { background:#1e1e1e; border-color:#333; color:#e0e0e0; }
+      #btn-next, #btn-check { background:#005bb5; }
+    }
   </style>
 </head>
 <body>
   <h1>Vervoegingen oefenen</h1>
   <p><a href="index.html">⬅ Terug</a></p>
 
-  <div class="controls" id="controls">
-    <div>
-      <label>Tijden:</label>
+  <div class="controls">
+    <fieldset>
+      <legend>Tijden</legend>
       <label><input type="checkbox" class="time-checkbox" value="presente" checked> Presente</label>
-      <label><input type="checkbox" class="time-checkbox" value="perfecto" checked> Pretérito Perfecto</label>
+      <label><input type="checkbox" class="time-checkbox" value="perfecto" checked> Perfecto</label>
       <label><input type="checkbox" class="time-checkbox" value="gerundio" checked> Gerundio</label>
-    </div>
-    <div>
-      <label>Persoon:</label>
+    </fieldset>
+    <fieldset>
+      <legend>Persoon</legend>
       <label><input type="checkbox" class="person-checkbox" value="yo" checked> yo</label>
       <label><input type="checkbox" class="person-checkbox" value="tú" checked> tú</label>
-      <label><input type="checkbox" class="person-checkbox" value="él/ella/Ud." checked> él/ella/Ud.</label>
+      <label><input type="checkbox" class="person-checkbox" value="él/ella/Ud." checked> él</label>
       <label><input type="checkbox" class="person-checkbox" value="nosotros" checked> nosotros</label>
       <label><input type="checkbox" class="person-checkbox" value="vosotros" checked> vosotros</label>
-      <label><input type="checkbox" class="person-checkbox" value="ellos/ellas/Uds." checked> ellos/ellas/Uds.</label>
-    </div>
+      <label><input type="checkbox" class="person-checkbox" value="ellos/ellas/Uds." checked> ellos</label>
+    </fieldset>
+    <fieldset id="feature-controls"><legend>Kenmerken</legend></fieldset>
   </div>
 
-  <button id="new-btn" onclick="nextQuestion()" style="margin-top:20px;">Nieuwe Vraag</button>
+  <button id="btn-next">Nieuwe Vraag</button>
   <p id="question"></p>
   <input type="hidden" id="verb-data">
-  <input type="text" id="answer" placeholder="Typ hier je vervoeging...">
-  <button id="check-btn" onclick="checkAnswer()">Controleer</button>
+  <input type="text" id="answer" placeholder="Typ je vervoeging...">
+  <button id="btn-check">Controleer</button>
   <p class="feedback" id="feedback"></p>
 
+  <div class="stats">
+    ✅ <strong id="good-count">0</strong>  ❌ <strong id="wrong-count">0</strong>
+  </div>
+
   <script>
-    // Lees data uit sessionStorage
+    // Data uit sessionStorage
     const stored = JSON.parse(sessionStorage.getItem('verbsData'));
     const verbs = Array.isArray(stored) ? stored : stored.verbs;
-    const haberForms = stored.haber_forms || {};
-    const estarForms = stored.progressive || {};
+    let queue = [...verbs], goodCount=0, wrongCount=0;
+    shuffle(queue);
 
-    function getSelections(selector) {
-      return Array.from(document.querySelectorAll(selector))
-        .filter(cb => cb.checked)
-        .map(cb => cb.value);
+    function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}}
+
+    function renderFeatures(){
+      const features=new Set();
+      verbs.forEach(v=>{(v.kenmerk?.length? v.kenmerk:['regular']).forEach(f=>features.add(f));});
+      const c=document.getElementById('feature-controls'); c.innerHTML='';
+      features.forEach(f=>{
+        const lbl=document.createElement('label');
+        const cb=document.createElement('input'); cb.type='checkbox'; cb.className='feature-checkbox'; cb.value=f; cb.checked=true;
+        lbl.appendChild(cb); lbl.append(' '+f.replace(/_/g,' ')); c.appendChild(lbl);
+      });
     }
 
-    function nextQuestion() {
-      const times = getSelections('.time-checkbox');
-      const persons = getSelections('.person-checkbox');
-      if (!times.length || !persons.length) {
-        document.getElementById('feedback').innerHTML = '<span class="error">Kies minstens één tijd en één persoon.</span>';
-        return;
-      }
-      const verb = verbs[Math.floor(Math.random() * verbs.length)];
-      const timeKey = times[Math.floor(Math.random() * times.length)];
-      const personKey = persons[Math.floor(Math.random() * persons.length)];
-      const inf = verb.spanish;
-      const trans = verb.dutch;
-      document.getElementById('question').innerHTML =
-        `Vervoeg <strong>${inf}</strong> (<em>${trans}</em>) voor <strong>${personKey}</strong> in <strong>${timeKey}</strong>:`;
-      document.getElementById('verb-data').value = JSON.stringify({ verb, timeKey, personKey });
-      document.getElementById('answer').value = '';
-      document.getElementById('feedback').textContent = '';
-      document.getElementById('answer').focus();
+    function getSel(s){return Array.from(document.querySelectorAll(s)).filter(x=>x.checked).map(x=>x.value);}    
+    function nextQ(){
+      const t=getSel('.time-checkbox'), p=getSel('.person-checkbox'), f=getSel('.feature-checkbox');
+      if(!t.length||!p.length||!f.length){document.getElementById('feedback').innerHTML='<span class="error">Kies tijd, persoon & kenmerk.</span>';return;}
+      const pool=verbs.filter(v=>{const ks=v.kenmerk?.length?v.kenmerk:['regular'];return ks.some(k=>f.includes(k));});
+      if(!pool.length){document.getElementById('feedback').innerHTML='<span class="error">Geen match.</span>';return;}
+      const v=pool[Math.floor(Math.random()*pool.length)],
+            tk=t[Math.floor(Math.random()*t.length)], pk=p[Math.floor(Math.random()*p.length)];
+      document.getElementById('question').innerHTML=`Vervoeg <strong>${v.spanish}</strong> (<em>${v.dutch}</em>) voor <strong>${pk}</strong> in <strong>${tk}</strong>:`;
+      document.getElementById('verb-data').value=JSON.stringify({verb:v,timeKey:tk,personKey:pk});
+      document.getElementById('answer').value='';document.getElementById('feedback').textContent='';document.getElementById('answer').focus();
     }
+    function checkA(){
+      const {verb,timeKey,personKey}=JSON.parse(document.getElementById('verb-data').value);
+      const km={presente:'conjugation',perfecto:'perfecto',gerundio:'progressive'};
+      const corr=verb[km[timeKey]]?.[personKey]||'';
+      const usr=document.getElementById('answer').value.trim().toLowerCase();
+      const fb=document.getElementById('feedback');
+      if(usr===corr.toLowerCase()){fb.innerHTML='<span class="correct">Correct!</span>';goodCount++;document.getElementById('good-count').textContent=goodCount;}
+      else{fb.innerHTML=`<span class="error">Fout: <strong>${corr}</strong></span>`;wrongCount++;document.getElementById('wrong-count').textContent=wrongCount;queue.splice(3,0,verb);}    }
 
-    function checkAnswer() {
-      const { verb, timeKey, personKey } = JSON.parse(document.getElementById('verb-data').value);
-      let correct = '';
-      const keyMap = { presente:'conjugation', perfecto:'perfecto', gerundio:'progressive' };
-      const forms = verb[keyMap[timeKey]];
-      if (forms && typeof forms === 'object') {
-        correct = forms[personKey] || '';
-      }
-      const user = document.getElementById('answer').value.trim().toLowerCase();
-      document.getElementById('feedback').innerHTML =
-        user === correct.toLowerCase()
-          ? '<span style="color:green">Correct!</span>'
-          : `<span style="color:red">Fout. Juiste antwoord: <strong>${correct}</strong></span>`;
-    }
+    document.getElementById('btn-next').addEventListener('click',nextQ);
+    document.getElementById('btn-check').addEventListener('click',checkA);
+    document.getElementById('answer').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();const t=document.getElementById('feedback').innerText; t.includes('Correct')?nextQ():checkA();}});
 
-    document.getElementById('answer').addEventListener('keydown', e => {
-      if (e.key === 'Enter') {
-        e.preventDefault();
-        const fb = document.getElementById('feedback').innerText;
-        if (fb.includes('Correct!')) nextQuestion(); else checkAnswer();
-      }
-    });
-
-    // Start
-    nextQuestion();
+    renderFeatures(); nextQ();
   </script>
 </body>
 </html>
